@@ -1,0 +1,1769 @@
+﻿id,ticket,gold_error_code,gold_manufacturer,gold_severity,gold_intent,gold_required_skills,gold_detected_language,pred_error_code,pred_manufacturer,pred_severity,pred_intent,pred_required_skills,pred_detected_language
+t03286,"Channel: email
+Subject: Termin absagen und neu buchen
+Body: Guten Tag, ich möchte den anstehenden Termin für die Wartung unserer Goodwe Batterie absagen und einen neuen Termin nächsten Monat vereinbaren. Außerdem möchte ich erwähnen, dass die Battery aktuell offline ist und nicht mehr lädt oder entlädt, obwohl die Solar-Anlage noch normal funktioniert. Das scheint ein Communication-Problem zu sein. Können Sie mir bitte einen neuen Termin für nächsten Monat anbieten? Danke vielmals.",,Goodwe,medium,fault,['battery'],de,,Goodwe,low,reschedule,['battery'],de
+t01381,"Channel: phone-transcript
+Subject: Phone call
+Body: Caller: Hi, ja, guten Tag. I am calling because I need some help with the monitoring app, I cannot seem to log in anymore. Agent: Okay, can you describe what happens when you try? Caller: Well, I click on the app and it opens but then it says something about invalid credentials or something like that. I have tried to reset it but nothing is working. Agent: Have you tried resetting your password? Caller: That is what I am asking about. Wie kann ich das machen? How do I reset the password on the portal? Also, I need to know how to read the monitoring app properly because the last person who installed our system showed me briefly but I have forgotten. Agent: Okay, I understand. We can walk through that together.",,,low,general,[],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":"
+t01216,"Channel: email
+Subject: Batterie offline - Goodwe 115
+Body: Hallo, ich bin absolut frustriert! Ich habe jetzt schon drei Tage versucht, das Problem selbst zu lösen, und es geht mir langsam auf die Nerven. Die Goodwe Batterie zeigt offline an und die Kommunikation ist irgendwie weg. Das ist besonders ärgerlich, weil ich gerade neue Fenster einbauen lasse und überall Handwerker im Haus sind, also kann ich auch nicht einfach die ganze Zeit hier rumsitzen und warten. Die Solaranlage funktioniert eigentlich noch ganz normal und produziert Strom, aber die Batterie lädt nicht und entlädt auch nicht mehr. Der Fehlercode ist 115 und ich verstehe nicht, wie das passieren konnte. Ich brauche dringend Hilfe!",115,Goodwe,medium,fault,['battery'],de,115,Goodwe,high,fault,"['battery', 'solar', 'commissioning']",de
+t02057,"Channel: phone-transcript
+Subject: Phone call
+Body: Yeah so I'm calling about my solar inverter here in Cologne and I've been getting this warning message popping up on the display it says something about DC insulation and I'm a bit worried about it to be honest. The thing is the inverter is still working and producing power but only for like a few hours in the morning and then the warning appears and it just kind of shuts itself down. I think it's a Huawei unit, yeah that's the one. But the strange thing is it still produces some power for part of the day even with the warning showing up which is confusing me. I checked the error code on the screen and it says HUA-501. I'm wondering if this is dangerous or if I need to get someone out to fix it because I really can't afford to have no solar power right now. Can you help me understand what's going on?",HUA-501,Huawei,medium,fault,['solar'],en,HUA-501,Huawei,high,fault,"['solar', 'commissioning']",en
+t02322,"Channel: email
+Subject: Battery not charging properly
+Body: Hi there, so I've had the home battery storage system for about 18 months now and it's been working alright mostly, but this past week something's off. The battery won't charge above like 90 percent anymore, which is weird because it used to go full all the time. I checked everything - the weather's been decent, panels are clean, no crazy weather last week that I can remember. Just won't top up properly. No error messages popping up or anything like that, just seems to stop charging at 90 and sits there. Not sure what's going on tbh. Can someone look into this?",,,medium,fault,['battery'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int"
+t01936,"Channel: email
+Subject: Fronius Inverter Problem - Performance Issue
+Body: I am very frustrated with the service so far. My Fronius solar inverter is running but the performance is reduced and it keeps showing fault 306 on and off. This is happening for two weeks now and nothing is fixed! The system should work properly or I need a replacement. Why is this taking so long? Please contact me immediately with a solution, nicht morgen aber heute!",306,Fronius,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": ""306"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""306"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""306"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""306"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""306"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""306"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""i"
+t01279,"Channel: email
+Subject: Urgent: Inverter Malfunction
+Body: I am writing because I am absolutely fed up with the constant grinding and rattling noise coming from my inverter fan. It has been going on for weeks now and you still have not resolved this issue despite my previous contact. The error code 410 keeps appearing, the unit is still producing power but this noise is unacceptable. I need this fixed immediately or I want a replacement. This is completely unacceptable service.",410,,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": ""410"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": ""410"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": ""410"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": ""410"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": ""410"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": ""410"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""in"
+t00705,"Channel: email
+Subject: Batterie-Speicher Fehler
+Body: Hallo zusammen, ich hab da ein Problem mit meiner Batteriespeicher-Anlage und weiß echt nicht mehr weiter. Also vor drei Tagen, genau es war Mittwoch nachmittag, da hab ich gemerkt dass die Goodwe Batterie auf offline angezeigt hat. Dazu muss ich sagen dass ich gerade meine Terrasse renoviert habe und überall Staub ist, aber das sollte ja eigentlich nichts damit zu tun haben. Jedenfalls zeigt mir das System an dass die Batterie sich vom Inverter abgemeldet hat quasi. Die Solaranlage selbst lädt noch normal, die Module machen kein Stress, aber die Batterie reagiert einfach null. Egal ob viel Sonne ist oder wenig, die Batterie lädt sich nicht auf und entlädt sich auch nicht. Auf dem Display im Keller seh ich immer wieder die Fehlermeldung 115. Das ist echt frustrierend weil ich die Anlage ja jetzt ca. 2 Jahre laufen habe und das hat bis jetzt immer wunderbar funktioniert. Was kann ich tun? VG",115,Goodwe,medium,fault,['battery'],de,115,Goodwe,high,fault,"['battery', 'solar', 'commissioning']",de
+t01439,"Channel: phone-transcript
+Subject: 
+Body: äh ja hallo ich wollte einen termin absagen und dann vielleicht einen neuen im nächsten monat machen weil das jetzt zeitlich bei mir nicht passt und ja außerdem äh die batterie zeigt irgendwie offline an also die kommunikation ist weg oder so und äh die solaranlage läuft noch aber die batterie lädt nicht auf und entlädt auch nicht und ich sehe hier im monitoring so eine fehlermeldung mit GOO-115 aber ich wollte erst mal den termin verschieben und dann nächsten monat schauen ob das dann geklärt ist oder ob ich das vorher noch repariert kriege danke",GOO-115,,medium,fault,['battery'],de,GOO-115,Goodwe,medium,reschedule,"['battery', 'solar', 'commissioning']",de
+t01661,"Channel: phone-transcript
+Subject: Phone call
+Body: Ja hallo also äh ich habe ein Problem mit meinem Wechselrichter und zwar ähm der startet quasi alle paar Stunden neu und deshalb ist meine Produktion sehr unregelmäßig und lückenhaft und ähm im Display sehe ich den Fehlercode FRO-1010 anzeigen und ich weiß nicht was das bedeutet also äh können Sie mir da helfen und äh wie lange dauert es bis das behoben ist weil ich natürlich möchte dass meine Anlage wieder normal läuft",FRO-1010,,medium,fault,['solar'],de,FRO-1010,Huawei,medium,fault,"['solar', 'optimizer']",de
+t02717,"Channel: phone-transcript
+Subject: Phone call
+Body: ja also ähm der Fronius Wechselrichter der geht gar nicht mehr also der ist einfach komplett down und zeigt mir diese error code 306 an und ähm ich verstehe nicht was ist los ist das schlecht und wie lange dauert bis ihr kommt also das ist problematisch weil ich wirklich auf den Strom angewiesen bin",306,Fronius,high,fault,['solar'],en,306,Fronius,high,fault,"['solar', 'commissioning']",de
+t00821,"Channel: email
+Subject: Payment missing and inverter problem
+Body: Hello, I have not received my feed-in payment for the last quarter yet. Also my inverter keeps cycling on and off, restarting many times. Can you help?",,,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int"
+t02165,"Channel: email
+Subject: Heat pump problem
+Body: Hello, I am writing to you because I am absolutely fed up with this Viessmann heat pump. It has been acting up for the past two weeks and frankly I do not have time for this nonsense. Every single morning when I try to turn it on it just sits there doing nothing. I have to restart it multiple times, sometimes five or six times before it finally decides to work. This is completely unacceptable. After it finally starts working it runs fine for the rest of the day which makes no sense to me. I work from home and I should not have to babysit my heating system. I paid good money for this equipment and I expect it to work properly. The error code that appears is A9. This keeps happening and I need this resolved immediately. I do not want to hear excuses. Please tell me what you are going to do about this.",A9,Viessmann,medium,fault,['heatpump'],en,A9,Viessmann,high,fault,"['heatpump', 'commissioning']",en
+t01170,"Channel: email
+Subject: Appointment cancellation and rebooking
+Body: Hi, I need to cancel my scheduled appointment for this week - it's simply not convenient anymore, und honestly I'm getting frustrated with all the delays. Can we please reschedule for sometime next month instead? My Goodwe battery storage needs to be checked, but it can wait. Let me know what dates you have available. Danke.",,Goodwe,low,reschedule,[],en,,Goodwe,low,reschedule,['battery'],de
+t00460,"Channel: email
+Subject: Invoice amount and battery charging issue
+Body: Hi, I'm writing about my latest invoice which seems way too high compared to what I was quoted. This is nicht akzeptabel and I need an explanation immediately. Also, my home battery storage has been stuck at around 90 percent for the last week and won't charge any further, which is sehr ärgerlich. Can you please look into both of these issues as soon as possible?",,,medium,fault,['battery'],en,,,medium,billing,"['solar', 'battery']",de
+t02924,"Channel: email
+Subject: Huawei Wechselrichter mit reduzierter Leistung
+Body: Guten Tag, mein Huawei Solar-Wechselrichter läuft zwar, aber mit deutlich reduzierter Leistung. Außerdem treten sporadisch Fehler auf, die wieder verschwinden. Der Fehlercode HUA-2064 wird angezeigt. Könnten Sie mir bitte helfen, dieses Problem zu beheben?",HUA-2064,Huawei,medium,fault,['solar'],de,HUA-2064,Huawei,medium,fault,"['solar', 'optimizer']",de
+t01774,"Channel: phone-transcript
+Subject: Phone call
+Body: Yeah so um the Fronius inverter is just totally dark right now like it's not turning on at all and we're getting no production whatsoever and um the error code that's showing up is FRO-1010 so like I'm not sure what's going on but yeah basically nothing is working and um I really need to get this sorted out soon",FRO-1010,Fronius,high,fault,['solar'],en,FRO-1010,Fronius,high,fault,"['solar', 'commissioning']",en
+t02709,"Channel: email
+Subject: Warranty duration question
+Body: Hello, I am writing to ask about the warranty for my solar system that was installed by Empire. I would like to know how many years the warranty covering is and what exactly is included in it. Could you please provide me with this information? Thank you for your help.",,,low,general,[],en,,,low,billing,[],en
+t00238,"Channel: email
+Subject: Heating issue
+Body: My Vaillant heat pump is way too slow now and the heating is really weak. This is not acceptable, sort it out!",,Vaillant,medium,fault,"['heatpump', 'refrigerant', 'brazing']",en,,Vaillant,medium,fault,['heatpump'],en
+t01084,"Channel: phone-transcript
+Subject: Phone call
+Body: hallo ja guten tag uh mein fronius inverter der ist jetzt irgendwie nicht mehr am gehen uh das display ist dunkel und ich sehe keinen strom der wird produziert uh vorher hat alles funktioniert und jetzt auf einmal gar nix mehr und uh ich weiß nicht was ich machen soll also könnte mir da jemand helfen und ich wohne hier in stuttgart also uh könnt ihr mich kontaktieren oder mir sagen was ich probieren kann danke",,Fronius,high,fault,['solar'],de,,Fronius,high,fault,"['solar', 'commissioning']",de
+t02730,"Channel: email
+Subject: monthly maintenance contract price increase
+Body: hi, i received my invoice for this month and the maintenance contract price has gone up significantly without any prior notification. can you please explain why this change was made and whether i agreed to this? also, i wanted to mention that after the storm last week, the surge protection device on my solar installation is no longer showing protection status, though the system itself is still generating power. would appreciate clarity on both matters. thanks",,,medium,fault,['solar'],en,,,low,billing,[],en
+t01314,"Channel: phone-transcript
+Subject: Phone call
+Body: Hi um we're calling because we need to know about the warranty on our battery system. How long is the coverage exactly and what does it include? Oh and by the way we noticed something kind of concerning yesterday there was a smell coming from the inverter like hot plastic or burning and maybe a little bit of smoke? Should we be worried about that or is it nothing?",,,high,fault,"['solar', 'battery']",en,,SMA,high,billing,"['battery', 'solar']",de
+t01454,"Channel: phone-transcript
+Subject: Anruf
+Body: ja hallo also ich wollte mit euch klären wegen meiner Jahresabrechnung die ist mir irgendwie unklar und ich verstehe nicht wie die berechnet wurde also ob da alle Kilowattstunden richtig berücksichtigt sind und so weiter aber ähm ja dabei möchte ich auch erwähnen dass ich letzte Woche einen komischen burning smell also einen seltsamen Geruch aus dem Inverter oder dem Battery Cabinet bekomme also wirklich so ein heißer Plastikgeruch und ähm ja vielleicht sogar ein bisschen Rauch aber nicht viel also ist das normal oder sollte ich mir da Sorgen machen aber erst die Abrechnung verstehen",,,high,fault,"['solar', 'battery']",de,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inten","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inten","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inten","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inten","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inten","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inten"
+t00549,"Channel: phone-transcript
+Subject: Phone call
+Body: So my Fronius inverter keeps restarting every few hours, ja? It's really annoying. The production is all patchy and intermittent because of these restarts. I'll get good output for a while and then boom, it restarts and I lose everything. This has been happening for the last week. Can you help me figure out what's wrong?",,Fronius,medium,fault,['solar'],en,,Fronius,medium,fault,"['solar', 'commissioning']",de
+t02453,"Channel: email
+Subject: Need to reschedule maintenance appointment
+Body: Hi there, so I need to move my maintenance appointment to a different day next month if possible. The date you guys scheduled doesn't work with my calendar anymore bc my kid has a thing at school lol. Also just thought I'd mention while I'm at it that the Viessmann heat pump has been acting kinda weird lately—sometimes it takes like several attempts to get it started but once it's going it works fine so maybe nothing serious? The display showed error code A9 the other day. Anyway if you could help with rescheduling that would be great. TY",A9,Viessmann,medium,fault,['heatpump'],en,A9,Viessmann,medium,reschedule,['heatpump'],en
+t02524,"Channel: email
+Subject: URGENT: Battery Storage Not Working - Error GOO-115
+Body: This is absolutely ridiculous! I've had my home battery storage system for barely three months and now it's completely offline. The solar panels are working fine, I can see them generating power through the app, but the battery is just GONE. It shows as offline or disconnected or whatever you want to call it. There's no communication happening.
+
+I checked the error code and it says GOO-115. Very helpful, by the way. The battery isn't charging and it's definitely not discharging either. It's just sitting there doing absolutely nothing. I paid a lot of money for this system to work and right now it's just a very expensive paperweight on my wall.
+
+I need this fixed ASAP because my electricity costs are going up and I can't store any of the solar energy I'm producing. This is completely unacceptable. I want someone to come out and fix this immediately. What are my options here? How long is this going to take?
+
+Waiting for your response.",GOO-115,,medium,fault,['battery'],en,GOO-115,Goodwe,high,fault,"['battery', 'commissioning']",en
+t01068,"Channel: phone-transcript
+Subject: Phone call
+Body: hello um yes so the battery storage has completely stopped working i cant get it to turn on at all and um the goodwe unit is just showing error code 208 and theres no response when i try to reset it or anything ive tried pressing the buttons multiple times but nothings happening can you please help me get this working again",208,Goodwe,high,fault,['battery'],en,208,Goodwe,high,fault,"['battery', 'solar', 'commissioning']",en
+t01482,"Channel: phone-transcript
+Subject: Phone call
+Body: ja, also the Vaillant heat pump is showing a fault on the display and we have no heating and no hot water at all. it's completely down. we checked the basics but nothing helps. können Sie uns unterstützen?",,Vaillant,high,fault,"['heatpump', 'refrigerant', 'brazing']",en,,Vaillant,high,fault,['heatpump'],de
+t00436,"Channel: email
+Subject: Battery charging issue
+Body: Good morning, I am writing to report an issue with my home battery storage system. For the past week, the battery will not charge above approximately 90 percent capacity. I would appreciate your assistance in resolving this matter.",,,medium,fault,['battery'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int"
+t03233,"Channel: phone-transcript
+Subject: Phone call
+Body: ja also äh ich hab hier die jahresabrechnung von meiner Vaillant heat pump erhalten und äh ich verstehe gar nicht wie die zahlen zustande kommen können sie mir das vielleicht mal erklären wie das funktioniert und so weiter",,Vaillant,low,billing,[],de,,Vaillant,low,general,[],de
+t00677,"Channel: phone-transcript
+Subject: 
+Body: ja also äh wir haben jetzt schon seit zwei tagen gar keine heizung mehr und auch kein warmwasser und äh ich weiß nicht was da los ist also die wärmepumpe die zeigt auf dem display irgendwie einen fehler an und ja also es funktioniert einfach gar nichts mehr äh der fehlerkode der steht auf dem display ist irgendwie F.22 oder so und ich hab schon probiert es auszuschalten und wieder anzuschalten aber das hilft nicht und äh ja ich weiß nicht mehr was ich machen soll also es ist schon relativ kalt hier jetzt",F.22,,high,fault,"['heatpump', 'refrigerant', 'brazing']",de,F.22,Vaillant,high,fault,"['heatpump', 'hydronic']",de
+t02285,"Channel: email
+Subject: Solar inverter not working
+Body: Hallo, my Huawei inverter is completely dead, no light, no response. Error code 2064 appearing before it stop. What I can do?",2064,Huawei,high,fault,['solar'],en,2064,Huawei,high,fault,['solar'],de
+t03127,"Channel: email
+Subject: warranty question
+Body: hello, i wanted to ask about the warranty on our solar system because im trying to figure out how long we're covered for in case something goes wrong. we had the installation done back in 2022 and everything has been working fine so far, touch wood as they say, but my partner was reading something online about warranties and got me wondering whether we have a good level of protection. also while i was thinking about it i realised we haven't actually received the warranty documentation in the post yet or maybe we did and its just sitting in a drawer somewhere i cant quite remember, anyway the point is i dont really understand what the actual terms are and what would be covered if say the inverter stopped working or if there was an issue with the panels themselves. so yea could you clarify this for me thanks",,,low,general,[],en,,,low,billing,[],en
+t01215,"Channel: phone-transcript
+Subject: Phone call
+Body: Hi yes so we had a really bad storm last night and I'm calling because the surge protection device on our solar installation, I think it's not working anymore. Like it's definitely damaged from the lightning strike or whatever happened, and now it says it's no longer providing any protection. But the system itself is still running fine, the panels are still generating power, so I'm not sure if this is an emergency or what we should do. Can someone come out and check it? Thanks.",,,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int"
+t02578,"Channel: email
+Subject: inverter not working red light
+Body: hey so i got a pretty big problem here with my huawei inverter and honestly im kind of stressed about this whole situation because everything just stopped working like totally and i noticed the red led is on and the system is not producing any power at all which is really frustrating because we depend on that energy you know and also the grid connection is gone so theres nothing going on anymore and i keep checking but nothing changes and i saw the error code HUA-001 pop up on the display which means i think the inverter ist broken or something big irgendwas with the connection? anyway im hoping you guys can help me asap because i cant have it down for too long danke",HUA-001,Huawei,high,fault,['solar'],en,HUA-001,Huawei,high,fault,['solar'],de
+t01278,"Channel: phone-transcript
+Subject: Phone call
+Body: Hi, yes, so my Vaillant heat pump has completely stopped working. It just won't turn on at all anymore, no response nothing. The error code showing on the display is F.75. We've had freezing temperatures here and I really need this sorted out quickly because we have no heating right now. Please call me back as soon as possible.",F.75,Vaillant,high,fault,['heatpump'],en,F.75,Vaillant,high,fault,"['heatpump', 'hydronic']",en
+t01970,"Channel: email
+Subject: Störgeräusch vom Wechselrichter
+Body: Guten Tag, unser SMA Wechselrichter macht seit gestern ein lautes Schleifen- und Rattern-Geräusch, besonders wenn die Sonne höher steht. Die Anlage produziert noch Strom, aber das Geräusch ist wirklich störend. Im Monitoring sehe ich folgende Info:
+
+Inverter Status: SMA-410
+Output: 4.2 kW
+Temperatur: 58°C
+
+Kann jemand einen Termin vereinbaren, um das zu überprüfen? Danke!",SMA-410,SMA,medium,fault,['solar'],de,,SMA,medium,fault,['solar'],de
+t03028,"Channel: email
+Subject: Fronius inverter problem
+Body: Hi there, so I installed this Fronius inverter about 14 months ago in my house near Cologne and it starting to be very problematic. Every few hours the thing is restarting itself, it's like the power just cuts off and then comes back after maybe 10 minutes. The production is very up and down, not consistent, and honestly I am starting to worry if something is broken inside. Last week it restart like 7 times in one day, very strange behaviour. Before it was working okay for the first year, so maybe there is a defect or water inside? I also noticed the cables might be bit warm sometimes. Please help me understand what is going wrong mit dieser Anlage.",,Fronius,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""in"
+t03136,"Channel: email
+Subject: Service contract question
+Body: Hi there, I wanted to ask if it's worth getting a service contract for my system? Also, there's a burning smell coming from the inverter cabinet lately, kinda smells like hot plastic. Not sure if I should be worried but figured I'd mention it. Cheers",,,high,fault,"['solar', 'battery']",en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inten","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inten","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inten","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inten","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inten","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inten"
+t01575,"Channel: phone-transcript
+Subject: Anruf
+Body: ja also ich hab ein Problem mit der Wärmepumpe von Viessmann und zwar äh die springt nicht direkt an wenn ich sie einschalte sondern ich muss es mehrmals versuchen und dann irgendwann läuft sie aber wenn sie läuft dann funktioniert sie eigentlich ganz gut das ist das Komische also es gibt da auch diese Fehlermeldung A9 die immer wieder kommt wenn ich es zum ersten Mal anmache und äh ja ich weiß nicht was ich da machen soll",A9,Viessmann,medium,fault,['heatpump'],de,A9,Viessmann,medium,fault,"['heatpump', 'commissioning']",de
+t01289,"Channel: email
+Subject: battery storage question
+Body: hi, just wondering if a service contract is worth getting? also my battery won't charge past like 90% for the past week, kinda annoying but no actual error codes or anything. thx",,,medium,fault,['battery'],en,,,low,general,[],en
+t02097,"Channel: email
+Subject: Fronius inverter performance issue
+Body: Hey so I've been having some trouble with my solar setup lately, like the Fronius unit keeps running but honestly it's not outputting what it should be getting, u know? And then sometimes there's this fault that pops up intermittently, it's really bugging me cuz I'm trying to monitor everything and it's just not reliable. Also I noticed the error State 306 showing up randomly when I check the display, which is weird cuz everything was fine before. Anyway been dealing with this for like 2 weeks now and would be great to get some help sorting it out tbh.",State 306,Fronius,medium,fault,['solar'],en,306,Fronius,medium,fault,"['solar', 'optimizer', 'commissioning']",en
+t01249,"Channel: phone-transcript
+Subject: Phone call
+Body: ja hallo um we have a problem with our Huawei inverter and um there's a red LED showing on it and uh the system is producing no power at all like zero output and the grid connection has like completely dropped off and um the error code that's showing is 001 and ja um we're not sure what happened but it was working fine yesterday and now it's just stopped so um können Sie uns helfen we need to get this fixed pretty quickly",001,Huawei,high,fault,['solar'],en,001,Huawei,high,fault,['solar'],de
+t00335,"Channel: phone-transcript
+Subject: Phone call
+Body: Hi yes so I need to reschedule the maintenance appointment that we haben for the Goodwe battery next week. I'm not going to be available on Thursday actually, can we move it to maybe the following Monday or Tuesday? Ja, either of those days would work for me. Thanks.",,Goodwe,low,reschedule,[],en,,Goodwe,low,reschedule,[],de
+t01915,"Channel: email
+Subject: Solar inverter not working at all
+Body: Hello, I am writing to you because I am absolutely fed up with this situation. My SMA solar inverter has completely stopped working and I have no idea what is going on. The display is showing some kind of fault message but nothing is clear. I installed this system back in 2019 and it has been working fine until now, but this week something went wrong. I am not getting any solar power at all which is really frustrating because the weather has been perfect for solar production. I have tried turning it off and on again like they always say but nothing happens. The display just keeps showing the fault. I even checked if the cables are properly connected but everything looks fine to me. This is completely unacceptable and I need this resolved as soon as possible because I am losing money every single day that my system is not producing. Can you please send someone to fix this immediately?",,SMA,high,fault,['solar'],en,,SMA,high,fault,"['solar', 'commissioning']",en
+t00277,"Channel: email
+Subject: Anfrage zur Systemerweiterung
+Body: Sehr geehrte Damen und Herren, ich möchte mein System gerne um einen Stromspeicher und zusätzliche Module erweitern. Können Sie mir bitte ein Angebot erstellen?",,,low,general,[],de,,,low,reschedule,['solar'],de
+t03333,"Channel: email
+Subject: Battery not working - offline status
+Body: Guten Tag, ich habe ein großes Problem mit meiner Goodwe battery. The battery is showing offline now and we cannot communicate with it anymore, verstehen Sie? The solar panels are still working perfectly fine but the battery does not charge and does not discharge, it's like completely disconnected. Error code GOO-115 appears on the display. This is very frustrating because we install this system two months ago and it worked beautiful before. Can someone call me back soon because without the battery our system is not complete? Danke.",GOO-115,Goodwe,medium,fault,['battery'],en,GOO-115,Goodwe,high,fault,"['battery', 'solar', 'commissioning']",de
+t01425,"Channel: email
+Subject: Heat pump heating weak
+Body: Hallo, meine Wärmepumpe funktioniert aber die Heizung ist sehr schwach und dauert viel länger wie früher. Können Sie mir helfen?",,,medium,fault,"['heatpump', 'refrigerant', 'brazing']",de,,Vaillant,medium,fault,"['heatpump', 'hydronic']",de
+t02985,"Channel: phone-transcript
+Subject: Anruf
+Body: Guten Tag, ich rufe an wegen meiner Vaillant Wärmepumpe. Das Gerät läuft zwar noch, aber die Leistung ist deutlich reduziert. Ich habe auch immer wieder Fehlermeldungen, speziell den Code F28 der kommt immer wieder. Das ist jetzt schon seit ungefähr einer Woche so. Die Heizung funktioniert nicht richtig, das Wasser wird nicht warm genug. Können Sie mir sagen, was da los ist? Ich bin hier in Köln, falls das wichtig ist.",F28,Vaillant,medium,fault,['heatpump'],de,F28,Vaillant,medium,fault,"['heatpump', 'hydronic']",de
+t00671,"Channel: email
+Subject: Inverter problem - no power
+Body: Hello, I have a problem with my inverter. The display is showing a fault and the system does not start at all anymore. I getting no solar power from the system since yesterday. Can you help me please and tell me what is wrong? I am very worried about this. Danke!",,,high,fault,['solar'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""int"
+t00201,"Channel: email
+Subject: Wärmepumpe Leistung Problem
+Body: Guten Tag, unsere Vaillant Wärmepumpe läuft zwar noch, aber die Leistung ist deutlich reduziert und es tritt intermittierend ein Fehler auf. Anbei die Daten aus der Überwachungs-App: Temperatur Vorlauf 28°C, Außentemperatur 8°C, Fehlermeldung F28 erscheint etwa alle 10-15 Minuten. Die Heizung funktioniert, aber nicht optimal. Können Sie mir sagen, was das Problem sein könnte?",F28,Vaillant,medium,fault,['heatpump'],de,F28,Vaillant,medium,fault,"['heatpump', 'hydronic']",de
+t00096,"Channel: email
+Subject: Inverter Problem
+Body: Guten Tag, mein Huawei Inverter hat seit gestern komplett Stillstand. Gelbe LED, kein Ertrag. Status aus App: Device Status: Fault, Power Output: 0 W, Fault Code: Equipment Failure. Was ist los? Danke",,Huawei,high,fault,['solar'],en,Equipment Failure,Huawei,high,fault,['solar'],de
+t02318,"Channel: email
+Subject: Warranty Information
+Body: Hello, I want to know how long is the warranty for my system? Please tell me.",,,low,general,[],en,,,low,billing,[],en
+t01897,"Channel: email
+Subject: Solar Inverter Not Working - Error Code SMA-3601
+Body: Dear Empire Support Team, I am writing to inform you that our SMA solar inverter has completely stopped functioning. The device displays error code SMA-3601 and is no longer operational. We would greatly appreciate your assistance in resolving this issue as soon as possible. Thank you.",SMA-3601,SMA,high,fault,['solar'],en,SMA-3601,SMA,high,fault,"['solar', 'commissioning']",en
+t00797,"Channel: email
+Subject: inverter stopped
+Body: my fronius inverter have stopped working and display is dark, no solar production from yesterday. what i do?",,Fronius,high,fault,['solar'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""in","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""in"
+t02736,"Channel: phone-transcript
+Subject: Phone call
+Body: yeah so um i wanted to ask about my annual statement because like the charges don't really make sense to me and i wanted to understand like what exactly im paying for each month but also um real quick i should mention that the wallbox has been um acting up a bit lately like the car just stops charging after maybe five or ten minutes and the light on the box turns like a weird colour or something and then it times out i guess but anyway the main thing is can you explain the statement to me",,,medium,fault,['commissioning'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":"
+t02970,"Channel: phone-transcript
+Subject: Phone call
+Body: Hi ja so we have a problem with our Huawei inverter here in Frankfurt and it's completely shut down now since yesterday morning. There's a yellow LED lighting up but nothing else happening no yield at all and I don't know what's going on. Can someone help us with this issue because we're getting a bit worried about it",,Huawei,high,fault,['solar'],en,,Huawei,high,fault,['solar'],de
+t02649,"Channel: email
+Subject: Terminänderung gewünscht
+Body: Guten Tag, vielen Dank für die Bestätigung des Wartungstermins für meine Viessmann Wärmepumpe am 15. April. Ich wollte höflich anfragen, ob es möglicherweise eine frühere Verfügbarkeit gibt - idealerweise nächste Woche - da meine Zeitplanung sich leider geändert hat und ich gerne schneller einen Termin hätte. Ich wäre für jede verfügbare Alternative sehr dankbar. Freundliche Grüße",,Viessmann,low,reschedule,[],de,,Viessmann,low,reschedule,['heatpump'],de
+t02172,"Channel: email
+Subject: Inverter Problem - State 306
+Body: Hallo,
+
+Mein Fronius Inverter läuft noch aber mit reduzierter Leistung. Hab grad einen Fehler bemerkt - State 306 kommt immer wieder, dann geht's ne Weile normal und dann wieder dieser Fehler. Ich weiß nicht ob das ein großes Problem ist aber die Performance ist definitiv nicht wie früher. Könnt ihr mir sagen was los ist?
+
+Danke",State 306,Fronius,medium,fault,['solar'],de,306,Fronius,medium,fault,"['solar', 'optimizer']",de
+t00424,"Channel: email
+Subject: Red LED and power loss - also ANGRY about contract price!!!
+Body: I am absolutely furious right now. First of all, I received a letter saying my monthly maintenance contract price has increased by €45 without ANY prior notification. This is completely unacceptable and frankly feels like a rip-off. We have been loyal customers for years and this is how you treat us?
+
+But that's not even the worst part. My Huawei solar inverter has completely stopped working. The red LED is on constantly and the system is producing absolutely zero power. The grid connection has been lost somehow. The error code HUA-001 keeps appearing. I have been trying to get this fixed for days now and nobody responds properly. This is costing me money every single day that the system is down, and now you want to charge me MORE for maintenance?
+
+I need immediate action on both fronts. Fix the inverter NOW and explain to me why you thought it was acceptable to raise my contract price without notification.",HUA-001,Huawei,high,fault,['solar'],en,HUA-001,Huawei,high,fault,"['solar', 'commissioning']",de
+t00440,"Channel: email
+Subject: Wärmepumpe startet nicht richtig - sehr frustrierend!!!
+Body: Guten Tag, ich bin absolut am Ende mit meiner Viessmann Wärmepumpe! Das Ding ist jetzt schon wieder passiert – ich musste die Anlage mindestens fünf, nein sechs Mal neustarten bevor sie endlich angesprungen ist. Das ist doch nicht normal! Gestern war ich noch im Garten, habe mit dem Nachbarn geredet über seinen neuen Zaun und dann bin ich reingegangen und wollte die Heizung checken und da war nichts, gar nichts! Nur Stille. Ich habe dann mehrmals den Reset-Button gedrückt, immer und immer wieder, und nach ewigen Minuten hat die Pumpe dann endlich started. Danach läuft sie normal, aber das kann ja wohl nicht sein dass ich das jedes Mal machen muss? Der Fehlercode A9 kommt jedes Mal. Ich bin wirklich ungeduldig hier und brauche dringend eine Lösung. Können Sie mir bitte schnell helfen??",A9,Viessmann,medium,fault,['heatpump'],de,A9,Viessmann,high,fault,"['heatpump', 'commissioning']",de
+t00645,"Channel: phone-transcript
+Subject: Phone call
+Body: ja also äh der Huawei Wechselrichter der funktioniert einfach gar nicht mehr seit heute Morgen und äh ich habe schon geguckt und äh es wird mir der Fehler HUA-2064 angezeigt und ähm ja der Bildschirm ist dunkel und äh keine Reaktion mehr auf irgendetwas also es ist völlig weg äh ja was kann ich denn da machen",HUA-2064,Huawei,high,fault,['solar'],de,HUA-2064,Huawei,high,fault,"['solar', 'commissioning']",de
+t01916,"Channel: email
+Subject: Service contract question
+Body: Hallo, ich hätte eine kurze Frage zu den Service-Verträgen. Lohnt sich so ein Vertrag wirklich für meinen Haushalt? Was ist da genau abgedeckt und wie teuer ist sowas? Würde gerne wissen ob das sinnvoll ist oder eher nicht. Danke für eure Info!",,,low,general,[],de,,,low,billing,[],de
+t00300,"Channel: email
+Subject: battery not charging properly
+Body: hi, we've had an issue with our battery storage for about a week now. it just won't charge above roughly 90 percent no matter what we do. the system seems to be working otherwise but it's definitely stuck at that level. can you help us figure out whats going on? thanks",,,medium,fault,['battery'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int"
+t01123,"Channel: email
+Subject: Huawei Inverter - DC Isolationwarnung
+Body: Sehr geehrtes Team, mein Huawei Inverter zeigt eine DC-Isolationswarnung an, läuft aber noch teilweise tagsüber. Können Sie mir helfen?",,Huawei,medium,fault,['solar'],de,DC-Isolationwarnung,Huawei,medium,fault,['solar'],de
+t00858,"Channel: email
+Subject: Huawei-Inverter Leistungsproblem
+Body: Inverter drosselt um die Mittagszeit, obwohl die Sonne stark scheint. Monitoring App zeigt: Fehler 602. Leistung fällt für Stunden.",602,Huawei,medium,fault,['solar'],de,602,Huawei,medium,fault,"['solar', 'optimizer']",de
+t01479,"Channel: email
+Subject: Battery offline
+Body: Our Goodwe battery storage system is showing offline and we are unable to communicate with it. The error code displayed is GOO-115. Solar production is working normally but the battery is not charging or discharging.",GOO-115,Goodwe,medium,fault,['battery'],en,GOO-115,Goodwe,medium,fault,"['battery', 'solar']",en
+t02206,"Channel: email
+Subject: Inverter keeps restarting - production issues
+Body: Hello,
+
+I'm writing because my inverter has been acting very strange lately and it's really frustrating. It seems to restart every few hours throughout the day which means we're losing a lot of solar production. The power generation is very patchy and unreliable.
+
+I checked the monitoring app and here's what I saw:
+
+Error FRO-1010 detected
+System restart at 09:43
+System restart at 13:15
+System restart at 16:22
+Production values: 2.3 kW, then drops to 0, then back to 1.8 kW
+
+This is happening almost every day now. I've tried restarting it manually but it just keeps happening. It's only been installed for about 8 months and this never happened before last week. I'm concerned about what could be causing this.
+
+Kind regards",FRO-1010,,medium,fault,['solar'],en,FRO-1010,Fronius,high,fault,"['solar', 'commissioning']",en
+t00979,"Channel: phone-transcript
+Subject: 
+Body: yeah so um like the SMA inverter it keeps turning off and on like every few minutes you know and it just keeps restarting itself over and over uh the error code is 301 and like i dunno was going on ist das normal or should i be worried like does this mean something is broken ja? we have power but its annoying",301,SMA,medium,fault,['solar'],en,301,SMA,medium,fault,['solar'],de
+t00483,"Channel: email
+Subject: Solar Inverter Losing Grid Connection
+Body: Hey, my solar inverter keeps dropping grid connection multiple times daily but reconnects automatically. Error code HUA-001. Whats going on?",HUA-001,,medium,fault,['solar'],en,HUA-001,Huawei,medium,fault,['solar'],en
+t02269,"Channel: phone-transcript
+Subject: 
+Body: hallo ich bin am telefon und wollte mal fragen ob ihr mir die jahresabrechnung von meiner Vaillant wärmepumpe erklären könnt. die zahlen dort verstehe ich einfach nicht, irgendwie passt das alles nicht zusammen mit dem was ich dachte dass ich bezahlen würde. also da sind so unterschiedliche positionen aufgelistet und ich weiß gar nicht wofür manche davon sind genau. könnt ihr mir einen überblick geben was alles da drauf berechnet wurde?",,Vaillant,low,billing,[],de,,Vaillant,low,billing,['hydronic'],de
+t00748,"Channel: phone-transcript
+Subject: Batterie-Fehler
+Body: also ich hab ein problem mit meiner goodwe batterie und zwar die batterie geht immer offline oder sagt keine verbindung mehr und das passiert jetzt schon drei oder vier tage und die solaranlage funktioniert aber die batterie wird einfach nicht geladen und entladen tut sie sich auch nicht und ich sehe immer wieder fehler GOO-115 was kann ich da machen",GOO-115,Goodwe,medium,fault,['battery'],de,GOO-115,Goodwe,high,fault,"['battery', 'solar', 'commissioning']",de
+t01834,"Channel: email
+Subject: Wartungstermin verschieben und Inverter Problem
+Body: Hallo Empire Team,
+
+Ich möchte meinen Wartungstermin auf einen anderen Tag verschieben, wenn das möglich ist. Ich bin normalerweise nicht zu Hause an dem geplanten Termin nächste Woche.
+
+Auch habe ich ein Problem mit meinen SMA Inverter. Der Inverter will nicht starten und das Display zeigt eine Fehler. Es gibt keine Solar-Power von der Anlage. Der Fehlercode ist SMA-301. Können Sie mir helfen, das zu reparieren?
+
+Danke für Ihre Hilfe.",SMA-301,SMA,high,fault,['solar'],de,"INVALID: {
+  ""error_code"": ""SMA-301"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""SMA-301"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""SMA-301"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""SMA-301"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""SMA-301"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""SMA-301"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""i"
+t01074,"Channel: phone-transcript
+Subject: Phone call
+Body: hey um so I've got a Viessmann heat pump and the problem is like when it gets really cold in the mornings it just won't start up you know and the whole house stays freezing cold and I'm trying to turn it on but nothing happens and then like later in the day when it warms up a bit it kicks in but that doesn't help me in the morning um there's also an error code A9 showing up and I don't know what to do about it so yeah that's the issue",A9,Viessmann,high,fault,['heatpump'],en,A9,Viessmann,medium,fault,"['heatpump', 'commissioning']",en
+t00367,"Channel: email
+Subject: Surge Protection Device
+Body: hi there, so we had quite a bad storm last week and since then ive been noticing that the surge protection device on our solar installation isnt working right anymore. it keeps showing that it no longer provides protection, which is concerning obviously. the system itself still runs and produces power so thats good i guess, but the protection is definitely gone or at least thats what the display is telling me. ive been meaning to contact you about this for a few days now but work has been mad busy and i finally got around to it. the weather has been nice since the storm so we havent had another one to test it properly but im pretty sure its broken now. can someone take a look at it? thanks",,,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int"
+t00366,"Channel: email
+Subject: Battery Issue
+Body: Hi, our goodwe battery storage aint working properly - its still running but performing poorly w/ intermittent fault messages, error code GOO-208 keeps popping up. can u help asap?",GOO-208,Goodwe,medium,fault,['battery'],en,GOO-208,Goodwe,medium,fault,"['battery', 'optimizer']",en
+t01647,"Channel: phone-transcript
+Subject: Phone call
+Body: ja hallo also ich wollt den termin nächste woche absagen und lieber einen termin im nächsten monat machen ja und ähm übrigens meine batterie lädt sich nicht mehr über etwa neunzig prozent auf das ist jetzt schon ne woche so und ich weiß nicht woran das liegt aber ja erstmal die verschiebung vom termin ja wenn das geht",,,medium,fault,['battery'],de,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int"
+t00506,"Channel: email
+Subject: heat pump not working in morning
+Body: hello, i have problem with the heat pump Viessmann. on cold morning it will not start and the house is very cold. i check the display and is showing error code A9. this happening for two weeks now and is getting worse. in the summer it was working fine aber now in winter it make problem. can you help me? thank you",A9,Viessmann,high,fault,['heatpump'],en,A9,Viessmann,medium,fault,"['heatpump', 'hydronic']",de
+t00947,"Channel: phone-transcript
+Subject: Phone call
+Body: hi so uh there is like a really loud grinding noise coming from the inverter fan you know it's like grinding and rattling and uh it's still making power but the noise is uh really really loud and I got the error code SMA-410 showing on the SMA display um and I'm worried something is broken can you help me out",SMA-410,SMA,medium,fault,['solar'],en,SMA-410,SMA,high,fault,"['solar', 'commissioning']",en
+t01412,"Channel: email
+Subject: Huawei Solaranlage Leistung reduziert
+Body: Das ist inakzeptabel! Die Huawei Anlage läuft zwar noch, aber die Leistung ist deutlich reduziert und es kommt immer wieder zu Fehlermeldungen. Der Fehlercode 2064 wird angezeigt und das System ist einfach nicht zuverlässig. Ich brauche sofort eine Lösung, das kann doch nicht sein, dass die Anlage so schlecht funktioniert!",2064,Huawei,medium,fault,['solar'],de,2064,Huawei,high,fault,"['solar', 'commissioning']",de
+t00696,"Channel: phone-transcript
+Subject: Phone call
+Body: yeah so my Viessmann heat pump is not starting up in the morning when it's really cold outside and the house is getting freezing you know and I keep seeing this error A9 on the display and I'm not sure what that means it just won't kick in I need warmth in my haus it's like minus five degrees this morning so can you tell me what's going on with this thing",A9,Viessmann,high,fault,['heatpump'],en,A9,Viessmann,high,fault,"['heatpump', 'hydronic']",en
+t02990,"Channel: email
+Subject: Fehlermeldung bei Solarinverter
+Body: Guten Tag,
+
+ich schreibe Ihnen, weil ich in den letzten Tagen ein Problem mit meinem Inverter bemerkt habe. Zunächst möchte ich erwähnen, dass das Wetter hier in Frankfurt diese Woche besonders schön ist, was normalerweise bedeuten würde, dass die Anlage optimal läuft. Allerdings erscheint auf dem Display regelmäßig eine Warnung bezüglich der DC-Isolationsfestigkeit, konkret der Fehlcode 501. Das Merkwürdige ist, dass der Inverter trotz dieser Warnung noch funktioniert und zumindest für einen Teil des Tages Strom erzeugt. Am Morgen läuft alles einwandfrei, aber gegen Mittag tritt diese Meldung auf. Ich bin mir unsicher, ob das System beschädigt ist oder ob es sich um etwas Vorübergehendes handelt. Meine Nachbarin hat mir geraten, sofort technischen Support zu kontaktieren, daher wende ich mich jetzt an Sie.
+
+Könnte jemand bitte überprüfen, ob dies ein ernstes Problem darstellt?
+
+Freundliche Grüße",501,,medium,fault,['solar'],de,"INVALID: {
+  ""error_code"": ""501"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""in","INVALID: {
+  ""error_code"": ""501"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""in","INVALID: {
+  ""error_code"": ""501"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""in","INVALID: {
+  ""error_code"": ""501"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""in","INVALID: {
+  ""error_code"": ""501"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""in","INVALID: {
+  ""error_code"": ""501"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""in"
+t02575,"Channel: phone-transcript
+Subject: Telefonanruf
+Body: ja hallo also ich habe ein problem mit meinem inverter der schaltet sich mittags immer komplett ab und bleibt dann aus also so gegen zwölf mittags geht er aus und dann passiert nichts mehr bis abends und ich sehe auch den fehlercode 602 aber das is eigentlich nicht so das hauptproblem momentan sondern ich wollte fragen ob ich einen anderen termin kriege weil der techniker sollte am donnerstag kommen aber ich bin da nicht zuhause kann nicht da sein und ob das geht dass ihr vielleicht am freitag kommt oder so nächste woche irgendwann",602,,high,fault,['solar'],de,602,,medium,reschedule,['solar'],de
+t02619,"Channel: phone-transcript
+Subject: Phone call
+Body: Customer calling about heat pump heating performance. Says the heating is working but it's very weak and takes much longer to reach desired temperature than it did when first installed. Used to heat the house in about an hour, now takes three to four hours. Vaillant system showing error code F22. Customer asking if something needs to be serviced.",F22,Vaillant,medium,fault,"['heatpump', 'refrigerant', 'brazing']",en,F22,Vaillant,medium,fault,"['heatpump', 'hydronic']",en
+t02485,"Channel: phone-transcript
+Subject: Phone call
+Body: ja so we called because um our Vaillant heat pump is completely down you know no heating at all and also no warm water which is sehr problematic right now because it's getting cold and we have guests coming and um the display is showing a fault code F.22 we've tried switching it off and on again but nothing happens and um yeah we're not sure what to do next so können Sie uns helfen",F.22,Vaillant,high,fault,"['heatpump', 'refrigerant', 'brazing']",en,F.22,Vaillant,high,fault,"['heatpump', 'hydronic']",de
+t00331,"Channel: email
+Subject: Urgent: burning smell from inverter
+Body: I am very concerned because my inverter is making a burning smell like hot plastic is coming from it. There is maybe a little smoke too. This happen this morning and it still smell bad now. Can you help me please, I am worried about fire.",,,high,fault,"['solar', 'battery']",en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+  ""int"
+t00611,"Channel: phone-transcript
+Subject: Phone call
+Body: ja hallo also äh ich hab da ein Problem mit meiner Lastschrift ja also diesen Monat wurde die Zahlung zweimal abgebucht und das sollte eigentlich nicht so sein äh ich verstehe nicht warum das passiert ist äh also ich habe hier mein Goodwe battery system und alles läuft normal aber die Zahlung ja also das ist einfach zwei mal gekommen auf meinem Konto und äh ja ich möchte das gerne klären können Sie mir da helfen yes so schnell wie möglich would be nice",,Goodwe,low,billing,[],de,,Goodwe,low,billing,['solar'],de
+t00552,"Channel: phone-transcript
+Subject: Phone call
+Body: So ja I'm calling because I want to discuss the possibility of maybe expanding our system in the future. We have the current setup with the solar panels and everything and it's working quite well so far, but I was wondering if it would be possible to add a battery to store more energy you know for the evening times when we use more power. Also I'm thinking maybe we could add more panels on the other side of the roof because we get sun there too. So can you tell me what options we have? Ah and how much would something like that cost approximately? My neighbor has a very large system with uh multiple batteries and I'm wondering if that's something we could do as well. What's your Ergebnis on this?",,,low,general,[],de,,,low,reschedule,['solar'],en
+t00140,"Channel: phone-transcript
+Subject: Phone call
+Body: yeah hi so i got my annual statement from viessmann for the heat pump and um i dont really understand what it says like the numbers dont seem to add up or something can you maybe explain what all this means like the energy consumption part and what these values are supposed to be um thanks",,Viessmann,low,billing,[],en,,Viessmann,low,general,[],en
+t02289,"Channel: email
+Subject: Billing issue - double charge
+Body: Hallo, I have problem mit my invoice from this month. The Huawei system ist connected to my account, alles normal, but I see that the Lastschrift was taken twice from my bank! Das sollte ja nicht passieren. First time on the 5th and then again on the 15th, so I paid double. This is very confusing and I need explanation why this happen and how you fix it. Bitte help me with this, danke.",,Huawei,low,billing,[],en,,Huawei,low,billing,[],de
+t00648,"Channel: email
+Subject: Urgent: System down Düsseldorf
+Body: Hello, I am writing to you because my Huawei solar system has now a big problem. Yesterday evening everything was working fine, the weather was very nice. This morning I go to checking the inverter and I see the red LED is blinking very fast and the system is producing no power at all. The grid connection is also lost, so I thinking maybe the Hauptschalter is off but no, everything is correct on the wall. I am very worried because I have already invested so much money on this system and the company what sold me says only you can help. Please advise what is to do. The red light on inverter is very concerning for me and the keine Stromproduktion is the main problem now.",,Huawei,high,fault,['solar'],en,,Huawei,high,fault,"['solar', 'commissioning']",de
+t00352,"Channel: email
+Subject: Inverter Problem
+Body: Das ist ja unerträglich! Mein SMA Inverter macht seit Tagen ein lautes Schleifen- und Rasseln-Geräusch. Der Code SMA-410 wird angezeigt. Die Anlage produziert zwar noch Strom, aber ich kann das nicht länger ignorieren!",SMA-410,SMA,medium,fault,['solar'],de,SMA-410,SMA,high,fault,['solar'],de
+t02476,"Channel: email
+Subject: Inverter keeps restarting
+Body: Hey, so my Fronius inverter keeps restarting itself every couple hrs and its messing w/ my production big time. The output is all over the place and I'm losing money on this. Can u guys come out and sort it asap?",,Fronius,medium,fault,['solar'],en,,Fronius,high,fault,"['solar', 'commissioning']",en
+t01803,"Channel: email
+Subject: Battery problem - offline
+Body: Hallo, mein Goodwe battery zeigt offline und die Kommunikation ist weg. Error code 115 bleibt auf dem Display. Die Solaranlage funktioniert noch, aber die Battery lädt nicht und discharget auch nicht. Kann mir jemand helfen?",115,Goodwe,medium,fault,['battery'],de,115,Goodwe,high,fault,['battery'],de
+t01033,"Channel: email
+Subject: feed-in payment missing and inverter making noise
+Body: hello,
+
+i am writing because i still haven't received my feed-in payment for the last quarter and this is now quite frustrating, zweiter monat that i'm waiting. but anyway, while we're at it, i should mention that my SMA inverter has been making this really loud grinding noise lately, sounds like the fan is rattling or something, quite annoying actually especially in the morning. it's still producing power though so at least thats something. the error code that shows up sometimes is SMA-410. but mainly i need to know where my money is because this is not acceptable and ive been a customer for 3 years now. please look into both issues for me.
+
+thanks",SMA-410,SMA,medium,fault,['solar'],en,SMA-410,SMA,medium,billing,['solar'],de
+t01505,"Channel: email
+Subject: Service contract question and wallbox charging issue
+Body: Hello, I have question about the service contract - is it worth to take it? Also my EV wallbox is stopping to charge after few minutes, the LED is showing wrong color. What should I do about this?",,,medium,fault,['commissioning'],en,,,low,billing,[],en
+t02999,"Channel: email
+Subject: Heat pump problem
+Body: hello so we have viessmann heat pump and is having very strange problem. every time we want to start the system it is not starting on first attempt, we must try several times maybe three or four times before it finally starts. when it is running after that then is working okay and producing heat no problem. but this restart issue is happening regularly now and is very annoying to have to press the button so many times. the error A9 is showing sometimes on the display. we checked all the connections und everything looks normal so not sure was the problem is. can you please help us understand what happening and how we can fix this because it is not so convenient having to restart many times. thanks für your help",A9,Viessmann,medium,fault,['heatpump'],en,A9,Viessmann,medium,fault,"['heatpump', 'commissioning']",de
+t01072,"Channel: phone-transcript
+Subject: Phone call
+Body: Hallo ja so um the Vaillant heat pump it's just not working anymore like completely ausgefallen you know the whole system is down and I'm getting this error code F28 on the display so I don't know what that means aber ja it's just stopped working and the house is getting cold so I really need help with this soon please",F28,Vaillant,high,fault,['heatpump'],en,F28,Vaillant,high,fault,"['heatpump', 'hydronic']",de
+t00794,"Channel: email
+Subject: warranty information and heat pump startup issue
+Body: hello, i hope youre doing well. i have a few questions i need help with regarding my viessmann heat pump system. mainly i wanted to know what the warranty period is on the unit and whether it covers labour as well as parts, and also if we need to register anything or renew anything after a certain time. we had the system installed about eighteen months ago so im trying to get all the documentation in order. also one more thing ive noticed recently - and this might be related to warranty actually - the heat pump has been having trouble starting up lately. it usually needs a few attempts before it actually kicks in properly, like i'll turn it on and nothing happens and then after a couple more tries it finally starts and then it works fine for the rest of the day which is strange. the error code A9 shows up on the display when it wont start. but anyway once it gets going its okay so not a huge deal i suppose but id rather it not do that. anyway if you could let me know about the warranty period and give me some advise on the startup thing that would be great thanks",A9,Viessmann,medium,fault,['heatpump'],en,A9,Viessmann,medium,fault,"['heatpump', 'commissioning']",en
+t01112,"Channel: phone-transcript
+Subject: Phone call
+Body: um hi yes so basically i just wanted to ask about the feed-in payment for last quarter like where is it because i was promised it would arrive by now and its already the end of the month and i havent seen anything um but also there is another thing that maybe you could help with like the wallbox seems to be having a problem where the car stops charging after just a few minutes every time and the led colour is wrong or something and it just loses communication i think so yeah could you maybe look into both of those things for me danke",,,medium,fault,['commissioning'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":"
+t00508,"Channel: email
+Subject: Speicher lädt nicht mehr über 90% und Zahlung ausstehend
+Body: guten tag, ich schreibe ihnen weil ich zwei sachen klären muss. erstens: mein speicher hat seit etwa einer woche ein problem, er lädt einfach nicht mehr über ungefähr 90 prozent auf, obwohl die sonne scheint und genug strom da sein sollte. das ist etwas frustrierend weil ich dachte die batterie soll ja bis 100 prozent gehen. ich habe in der monitoring app geschaut und da sieht man das folgende:
+
+ladestatus: 91%
+temperatur: 22°C
+ladegeschwindigkeit: 0 kW
+fehlermeldung: keine
+
+aber halt nur bis 91% und dann bleibt es stehen. total komisch. zweitens und das ist mir eigentlich noch wichtiger: die einspeisevergütung für das letzte quartal ist immer noch nicht auf meinem konto angekommen. das geld sollte doch im januar kommen? ich habe bis jetzt noch nichts bekommen und finde das langsam problematisch. können sie das bitte nachsehen? danke",,,medium,fault,['battery'],de,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int"
+t02626,"Channel: email
+Subject: inverter keeps restarting
+Body: hallo, unser fronius inverter startet alle paar stunden neu und die stromproduktion ist dadurch sehr unregelmäßig. wir bekommen immer wieder fehler 1010 angezeigt und wissen nicht was wir machen sollen. die gesamte anlage ist seid drei tagen betroffen und wir verlieren dadurch viel ertrag. könnt ihr das überprüfen?",1010,Fronius,medium,fault,['solar'],de,1010,Fronius,high,fault,"['solar', 'commissioning']",de
+t01064,"Channel: email
+Subject: heat pump not working
+Body: ok so i am really frustrated here because my vaillant heat pump has completely stopped working and i dont know what to do. it was working a few weeks ago fine and then we had some weather that was really cold and then after that it just didnt start back up again. now when i try to turn it on i get the error F28 showing up on the display and nothing happens. i looked at the manual but there is nothing helpful there and i dont understand what that means exactly. the house is getting really cold and we need this fixed asap. also i noticed the pressure gauge thingy looks a bit weird but i dont know if thats connected. can someone please help me figure this out",F28,Vaillant,high,fault,['heatpump'],en,F28,Vaillant,high,fault,"['heatpump', 'refrigerant', 'commissioning']",en
+t02304,"Channel: email
+Subject: Heat pump not working - urgent help needed
+Body: Hey there, so basically my Vaillant heat pump has completely died on me. Like it's not working at all anymore and I'm getting the error code F28 displayed on the unit. I checked the manual and honestly I couldn't figure out much from it. The thing just won't turn on anymore and it's getting chilly in the house tbh. I tried restarting it a few times but nothing seems to work. The error keeps showing up so I'm guessing there's something seriously wrong with it. Can you tell me what F28 means and whether this is something I can fix myself or if I need a technician to come out? Also how quickly can someone come look at it because we kinda need heat lol. Let me know asap thx",F28,Vaillant,high,fault,['heatpump'],en,F28,Vaillant,high,fault,"['heatpump', 'refrigerant']",en
+t02386,"Channel: email
+Subject: Inverter offline problem
+Body: Hello, my battery storage system is offline and not charging or discharging anymore. Error code is GOO-115. Solar panel still working fine but battery not working.",GOO-115,,medium,fault,['battery'],en,GOO-115,Goodwe,medium,fault,"['battery', 'solar', 'commissioning']",en
+t01498,"Channel: email
+Subject: Wechselrichter Problem
+Body: Hallo, ich habe ein großes Problem mit meinem SMA Wechselrichter. Das Ding springt ständig an und aus, startet immer wieder neu. Das nervt mich wirklich sehr. Vorgestern war noch alles normal, jetzt ist es jeden Tag so. Ich habe auch noch zwei Kinder im Haus und die brauchen warmes Wasser und so. Aus dem Monitoring kann ich folgende Daten sehen:
+
+Inverter State: Restarting
+Active Power: 0 W
+Grid Frequency: 50.2 Hz
+DC Voltage 1: 385 V
+
+Das Ding piept auch dauernd. Was mache ich falsch? Das System ist nicht mal zwei Jahre alt.",,SMA,medium,fault,['solar'],de,,SMA,high,fault,"['solar', 'commissioning']",de
+t00466,"Channel: email
+Subject: surge protector damaged after storm
+Body: hello, we had a bad storm come through düsseldorf last night and now our surge protection device is showing red lights. the solar system is still running and producing power but the device says it no longer provides protection. does this mean we need to replace it or is there something that can be reset? we're a bit worried that the system isnt protected anymore after spending so much on the installation. please let us know what we should do next.",,,medium,fault,['solar'],en,,,low,general,[],en
+t00408,"Channel: email
+Subject: Heizung aus
+Body: Guten Tag, meine Vaillant Wärmepumpe liefert keine Heizung und kein warmes Wasser. Das Display zeigt Fehlercode F.22 an.",F.22,Vaillant,high,fault,"['heatpump', 'refrigerant', 'brazing']",de,F.22,Vaillant,high,fault,"['heatpump', 'hydronic']",de
+t01881,"Channel: email
+Subject: Heat pump not working properly
+Body: Look, I'm getting really frustrated here. My Vaillant heat pump is on and it's producing heat but it's incredibly weak, like barely warm at all, and it takes forever to actually heat the house properly now. This is ridiculous. It used to work fine before and now I'm sitting here in the cold waiting hours for the temperature to go up. I've checked the thermostat settings and everything seems normal but the heating is just pathetic. I need this fixed immediately because my family is uncomfortable and I'm not happy with the performance at all.",,Vaillant,medium,fault,"['heatpump', 'refrigerant', 'brazing']",en,,Vaillant,medium,fault,"['heatpump', 'hydronic']",en
+t02772,"Channel: phone-transcript
+Subject: Phone call
+Body: Um so hello yeah I wanted to call about the invoice this month because um the direct debit was taken twice from my account which shouldn't happen right so I need that sorted out. But also um there's this thing with the Goodwe battery it like shows offline now and um the communication seems to be lost or something because the solar panels are still working fine but the battery won't charge anymore like it's not responding at all and I don't know if that's connected to the billing issue or um yeah just wanted to mention that as well",,Goodwe,medium,fault,['battery'],en,,Goodwe,medium,billing,"['solar', 'battery']",de
+t03244,"Channel: email
+Subject: Heat pump down
+Body: Heat pump stopped working. Error code F28. Vaillant system completely offline.",F28,Vaillant,high,fault,['heatpump'],en,F28,Vaillant,high,fault,"['heatpump', 'hydronic']",de
+t00130,"Channel: email
+Subject: Direct debit issue and inverter problem
+Body: Hi, I'm writing from Munich to let you know that my direct debit was charged twice this month which is really frustrating. Can you look into that for me ASAP? Also, just so you know, my solar inverter has been acting up lately—there's a red LED showing and the system isn't producing any power anymore. Grid connection is lost too. The error code shown is 001. Would be great if you could sort both issues out. Cheers.",001,,high,fault,['solar'],en,001,,high,fault,"['solar', 'commissioning']",en
+t00712,"Channel: email
+Subject: Rechnung und technische Frage
+Body: Guten Tag, die letzte Rechnung ist deutlich höher als erwartet – bitte überprüfen Sie. Nebenbei: der SMA inverter macht seit kurzem ein lautes Schleifen-Geräusch im Fan, produziert aber weiterhin Strom.",,SMA,medium,fault,['solar'],de,,SMA,medium,fault,"['solar', 'commissioning']",de
+t00726,"Channel: email
+Subject: Battery offline - sehr ärgerlich!
+Body: Hi there,
+
+I am absolutely frustrated right now. My battery has been showing offline for three days now and I can't figure out why. The solar is still working fine, producing power, aber the battery won't charge or discharge at all. It's basically a very expensive paperweight right now. Error code says 115 and I have no idea what that means. The inverter seems fine. Can someone please get back to me ASAP? This is ridiculous.
+
+Thanks",115,,medium,fault,['battery'],en,"INVALID: {
+  ""error_code"": ""115"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inte","INVALID: {
+  ""error_code"": ""115"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inte","INVALID: {
+  ""error_code"": ""115"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inte","INVALID: {
+  ""error_code"": ""115"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inte","INVALID: {
+  ""error_code"": ""115"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inte","INVALID: {
+  ""error_code"": ""115"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""high"",
+  ""inte"
+t02764,"Channel: email
+Subject: Solar-Anlage nicht funktionieren
+Body: Hallo, ich habe großes Problem mit meinen Huawei Solar-Inverter. Die Gerät hat rote LED und macht keine Strom mehr, die Grid-Connection ist verloren gegangen und es zeigt mir der Error Code HUA-001 auf dem Display. Ich habe schon versucht den Reset aber es hilft nicht und der Fehler ist immer noch da. Das System war vorher OK aber jetzt plötzlich funktioniert nichts mehr. Was soll ich machen jetzt?",HUA-001,Huawei,high,fault,['solar'],de,HUA-001,Huawei,high,fault,"['solar', 'commissioning']",de
+t01341,"Channel: email
+Subject: Email
+Body: Hello, I am writing to you about my Viessmann heat pump which is giving me troubles for the past weeks now. The problem is that when I try to turn on the system in the morning, it does not start immediately, I must try many times before it finally works. After it starts it works normally, so this is very strange and confusing to me. I wonder if there is something wrong with the control panel or maybe the compressor? Also I noticed that the outside temperature was quite cold last week, maybe this has something to do with it. Please advise what I should do about this situation.",,Viessmann,medium,fault,['heatpump'],en,,Viessmann,medium,fault,"['heatpump', 'commissioning']",de
+t01327,"Channel: email
+Subject: 
+Body: Guten Tag, ich schreibe Ihnen weil ich grosse Probleme mit meine Wärmepumpe habe. Das System funktioniert nicht mehr, es gibt keine Heizung und auch kein warmes Wasser überhaupt. Ich habe bemerkt dass das Display ein Fehlercode zeigt, F22 steht dort. Gestern war noch alles okay, aber heute morgen als ich aufgestanden bin war schon nichts mehr da. Das ist sehr unangenehm für meine Familie besonders weil wir Kinder im Haus haben. Können Sie mir bitte schnell helfen? Der Fehler F22 ist wahrscheinlich wichtig, ja? Ich hoffe Sie können das reparieren.",F22,,high,fault,"['heatpump', 'refrigerant', 'brazing']",de,F22,Vaillant,high,fault,"['heatpump', 'hydronic']",de
+t00291,"Channel: email
+Subject: Batterie-Problem
+Body: Yo, hab ein dickes Problem mit meiner Goodwe Batterie – die zeigt jetzt ""offline"" an und kommuniziert nicht mehr mit dem System. Die Solaranlage läuft noch normal, aber der Akku lädt und entlädt sich nicht mehr. Error Code GOO-115 wird angezeigt. Was kann ich machen?",GOO-115,Goodwe,medium,fault,['battery'],de,GOO-115,Goodwe,high,fault,"['battery', 'solar']",de
+t00835,"Channel: email
+Subject: Wärmepumpe funktioniert nicht richtig
+Body: Ich bin absolut frustriert! Meine Vaillant Wärmepumpe läuft zwar noch, aber die Heizleistung ist viel zu schwach geworden und es dauert ewig, bis das Haus warm wird. Das war vorher ganz anders. Der Fehlercode F.22 wird mir ständig angezeigt und ich weiß nicht, was das bedeutet. Das muss sofort behoben werden, ich friere hier!",F.22,Vaillant,medium,fault,"['heatpump', 'refrigerant', 'brazing']",de,F.22,Vaillant,high,fault,"['heatpump', 'hydronic']",de
+t02669,"Channel: email
+Subject: URGENT - System down - red light on inverter
+Body: This is completely unacceptable! The Huawei inverter has a RED LED on it right now and the whole system produces ZERO power. The grid connection is lost and I have been without solar power for two days! Error code HUA-001 keeps showing. I need someone to fix this immediately, I am extremely frustrated with this situation and I expect immediate action. How is this possible???",HUA-001,Huawei,high,fault,['solar'],en,HUA-001,Huawei,high,fault,"['solar', 'commissioning']",en
+t01716,"Channel: email
+Subject: Inverter schaltet sich mittags ab
+Body: Guten Tag, ich wende mich an Sie, da ich ein Problem mit meinem Huawei Inverter habe, das mich sehr beunruhigt. Das Gerät schaltet sich regelmäßig jeden Mittag um die Mittagszeit ab und bleibt dann für mehrere Stunden ausgeschaltet, obwohl die Sonne noch scheint und genug Strahlung vorhanden sein sollte. Dies ist besonders ärgerlich, da dies ja genau in der Zeit mit dem höchsten Ertrag passiert. Der Fehlercode HUA-602 wird angezeigt. Ich habe schon versucht, das Gerät neu zu starten, aber das Problem tritt immer wieder auf. Können Sie mir helfen, dieses Problem zu lösen?",HUA-602,Huawei,high,fault,['solar'],de,HUA-602,Huawei,high,fault,"['solar', 'commissioning']",de
+t01044,"Channel: email
+Subject: Annual statement is confusing
+Body: i am absolutely frustrated with this annual statement that you sent me because it makes absolutely no sense whatsoever. i have been a customer for three years now and normally i understand my invoices but this one is just completely unclear and confusing with all these different line items and charges that i dont recognize. there are things listed on here that i dont even remember agreeing to and the breakdown is not at all transparent or easy to follow. honestly i feel like im being charged for things i shouldnt be paying for and im very impatient to get this sorted out because its been over a week already and i still dont have any answers. the inverter and heat pump are both working fine so i dont understand why the charges are so high this year. can someone please look at this properly and explain to me exactly what im paying for because this is ridiculous and i want answers soon.",,,low,billing,[],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":"
+t00002,"Channel: email
+Subject: Battery offline and monitoring help
+Body: Hi there, I have some questions about the monitoring app and also I need to reset my portal password because I am forget it. But also, I have one problem - the Goodwe battery showing offline, error code GOO-115 appears, and the solar panels is working fine but the battery is not charging or discharging. I buy this system three months ago and everything was working good before. Can you help me with the password and also explain what is happening with battery? Thank you.",GOO-115,Goodwe,medium,fault,['battery'],en,GOO-115,Goodwe,medium,fault,"['battery', 'solar', 'commissioning']",en
+t02711,"Channel: email
+Subject: termin absage
+Body: hallo ich müsste den termin nächste woche leider absagen da ich da nicht zuhause bin könntet ihr mir einen neuen termin im nächsten monat geben? wär am besten wenn ihr mich ein paar tage vorher bescheid sagt. huawei inverter ist dabei danke",,Huawei,low,reschedule,[],de,,Huawei,low,reschedule,['solar'],de
+t02871,"Channel: email
+Subject: Fronius Inverter Problem - Error 306
+Body: Ich bin absolut frustriert! Mein Fronius Inverter läuft zwar noch, aber die Leistung ist deutlich reduziert und ich bekomme immer wieder die Fehlermeldung 306. Das ist bereits seit einer Woche so und ich habe schon mehrfach versucht, jemanden zu erreichen. Das kann doch nicht sein, dass man sich hier nicht kümmert! Ich brauche sofort eine Lösung dafür. Bitte kontaktieren Sie mich umgehend!",306,Fronius,medium,fault,['solar'],de,"INVALID: {
+  ""error_code"": ""306"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""306"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""306"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""306"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""306"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""i","INVALID: {
+  ""error_code"": ""306"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",
+  ""i"
+t02850,"Channel: email
+Subject: Phone call
+Body: hallo, ich habe ein problem mit meinem huawei solar inverter und ich bin wirklich frustriert. also seit ca. zwei wochen oder so bemerke ich dass die anlage mittags wenn die sonne am stärksten scheint einfach drosselt. die leistung fällt dann für stunden ab, obwohl perfektes wetter ist und die panels volle kraft haben sollten. das ist besonders ärgerlich weil ich gerade neue fenster im wohnzimmer eingebaut habe und die wärmeentwicklung ist jetzt viel besser aber der strom aus der anlage ist dann weg wenn ich ihn am meisten brauche. im display sehe ich dann error 602 angezeigt und dann passiert gar nichts mehr bis am abend hin. das ist doch nicht normal oder? kann man das reparieren oder ist da was kaputt gegangen? danke schonmal",602,Huawei,medium,fault,['solar'],de,602,Huawei,high,fault,"['solar', 'commissioning']",de
+t03239,"Channel: email
+Subject: Fronius inverter restarts constantly
+Body: Hi, I'm experiencing issues with my Fronius solar inverter. It keeps restarting every few hours and this is causing very patchy production throughout the day. From my monitoring app, I can see it's generating power but then suddenly cuts out. The error code 1010 is showing up regularly. The production losses are significant. Could someone please advise what might be causing this and how to fix it?",1010,Fronius,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": ""1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""medium"",
+ ","INVALID: {
+  ""error_code"": ""1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""medium"",
+ ","INVALID: {
+  ""error_code"": ""1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""medium"",
+ ","INVALID: {
+  ""error_code"": ""1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""medium"",
+ ","INVALID: {
+  ""error_code"": ""1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""medium"",
+ ","INVALID: {
+  ""error_code"": ""1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""medium"",
+ "
+t00024,"Channel: email
+Subject: EV Wallbox Charging Problem
+Body: Hello, I have been experiencing problem with my EV wallbox for the last several days now. When I try to charge my car, the charging process starts normally but then it stops after only few minutes, which is very annoying. The LED indicator on the wallbox is showing wrong color, I think maybe it is supposed to be green but it is showing something else, and I am not sure what this meaning. Also sometimes I get timeout message on the car display which suggests that communication between wallbox and vehicle is lost or disconnected. This happens almost every time I attempt to charge so it make it impossible to use the system reliably. I would be grateful if you can help me understand what is causing this issue and how to fix it. Thank you for your time and support.",,,medium,fault,['commissioning'],en,,,medium,fault,"['solar', 'hybrid']",en
+t00615,"Channel: phone-transcript
+Subject: Anruf
+Body: Guten Tag, ich rufe an wegen meiner Solaranlage hier in Düsseldorf. Der Huawei Wechselrichter verliert ständig die Netzverbindung, das passiert mehrmals täglich. Er trennt sich ab und verbindet sich dann wieder von alleine. Ich habe im Display den Fehlercode 001 gesehen. Das ist jetzt schon zwei Wochen so, können Sie mir helfen? Danke.",001,Huawei,medium,fault,['solar'],de,001,Huawei,medium,fault,"['solar', 'commissioning']",de
+t03428,"Channel: phone-transcript
+Subject: 
+Body: hello um yeah so the battery storage is still working but um it's not performing as well as it should be and um there's this intermittent fault that keeps happening like every couple of days or so the device just um acts up for a bit and then seems to recover and um we're seeing error code GOO-208 in the display which is from the Goodwe system um so can you just check what's going on with that and um let me know what needs to happen next thanks",GOO-208,Goodwe,medium,fault,['battery'],en,GOO-208,Goodwe,medium,fault,"['battery', 'optimizer']",en
+t01475,"Channel: phone-transcript
+Subject: Phone call
+Body: Hi yes so um we're having an issue with our SMA inverter there's like a really loud grinding noise coming from it like rattling sound from the fan area um but it's still producing power so that's good but the noise is quite concerning we're getting error code 410 when we check it um can someone help us with this",410,SMA,medium,fault,['solar'],en,410,SMA,medium,fault,"['solar', 'optimizer']",en
+t00956,"Channel: phone-transcript
+Subject: Phone call
+Body: yeah so um my SMA inverter is making this really loud grinding noise like rattling sound coming from the fan and um error code 410 is showing but it's still producing power so i'm not sure what's going on",410,SMA,medium,fault,['solar'],en,410,SMA,medium,fault,"['solar', 'commissioning']",en
+t01794,"Channel: phone-transcript
+Subject: Anruf
+Body: ja hallo um also wir haben ein großes Problem mit der Vaillant heat pump ja die Heizung geht überhaupt nicht und auch das warme Wasser ist weg ganz weg und auf dem Display sieht man dass ein Fehler ist ja also es zeigt F.22 an und wir sind jetzt schon zwei Tage ohne Heizung und ohne hot water und das ist wirklich sehr unangenehm können Sie uns vielleicht helfen",F.22,Vaillant,high,fault,"['heatpump', 'refrigerant', 'brazing']",de,F.22,Vaillant,high,fault,"['heatpump', 'hydronic']",de
+t00023,"Channel: email
+Subject: Home Battery Storage Offline
+Body: Dear Empire support team, I am contacting you regarding an issue with my Goodwe home battery system. Since this morning, the battery has shown an offline status and communication appears to be lost between the inverter and the battery storage unit. The error code GOO-115 is displayed. My solar panels are still generating power normally, but the battery is neither charging nor discharging as expected. Could you please advise on the next steps to restore the connection? Thank you.",GOO-115,Goodwe,medium,fault,['battery'],en,GOO-115,Goodwe,medium,fault,"['battery', 'solar', 'commissioning']",en
+t01304,"Channel: phone-transcript
+Subject: Phone call
+Body: Also äh ja hallo also der Wechselrichter hat ähm eine rote LED und ähm der produziert jetzt überhaupt keinen Strom mehr also das ganze System ist wie aus und ähm die Netzverbindung ist weg und ähm es zeigt HUA-001 auf dem Display an und ich weiß nicht was los ist",HUA-001,,high,fault,['solar'],de,HUA-001,Huawei,high,fault,"['solar', 'commissioning']",de
+t01424,"Channel: phone-transcript
+Subject: Warranty question
+Body: Hi um yeah so I just wanted to ask about the warranty coverage on the heat pump system that we had installed like about six months ago and uh I'm just trying to figure out how long the warranty actually lasts because um I wasn't sure if it was like five years or ten years or something else altogether and ich möchte nur wissen you know like what exactly is covered and for wie lange and whether there are any parts that have a different warranty period or something like that and um also what happens wenn something goes wrong after the warranty ends so yeah if you could just clarify that für mich that would be really helpful danke",,,low,general,[],en,,Vaillant,low,billing,[],de
+t00425,"Channel: email
+Subject: Heizung und Warmwasser ausgefallen
+Body: Guten Tag, unsere Vaillant Wärmepumpe funktioniert nicht mehr - weder Heizung noch Warmwasser. Das Display zeigt Fehler F.22 an. Bitte um schnelle Hilfe.",F.22,Vaillant,high,fault,"['heatpump', 'refrigerant', 'brazing']",de,F.22,Vaillant,high,fault,"['heatpump', 'hydronic']",de
+t00486,"Channel: email
+Subject: Doppelte Abbuchung und Ladesäule Problem
+Body: Sehr geehrte Damen und Herren,
+
+die Lastschrift wurde diesen Monat zweimal von meinem Konto eingezogen. Bitte korrigieren Sie dies. Zusätzlich möchte ich erwähnen, dass meine Ladesäule nach wenigen Minuten nicht mehr lädt und die LED-Farbe falsch angezeigt wird.
+
+Mit freundlichen Grüßen",,,medium,fault,['commissioning'],de,,,low,billing,[],de
+t01543,"Channel: phone-transcript
+Subject: Phone call
+Body: Ja hallo, so the SMA inverter is making this really loud grinding noise coming from the fan bereich, it's quite alarming actually and I'm worried something's broken but es produziert noch Strom so it seems to be working otherwise? The display shows error code 410 and I'm not sure what that means. Should I turn it off? What should I do?",410,SMA,medium,fault,['solar'],en,410,SMA,high,fault,"['solar', 'commissioning']",de
+t02213,"Channel: email
+Subject: direct debit charged twice and battery issue
+Body: hi, i noticed your company took the monthly payment twice from my account this month which is not ok and needs to be refunded asap. also the goodwe battery is showing offline and i cannot get it to communicate with anything anymore. the solar panels still work fine but the battery wont charge or discharge and the error code says 115. please sort both of these things out thanks",115,Goodwe,medium,fault,['battery'],en,115,Goodwe,medium,billing,"['battery', 'solar']",en
+t02625,"Channel: email
+Subject: Battery offline - not charging or discharging
+Body: Hi, I'm reaching out cuz my home battery storage is showing offline and I can't get it back online. The solar system is still working fine and producing power but the battery won't charge up or discharge at all. Communication seems to be lost. I'm getting error code 115 when I check the display. Can you help me get this sorted? Thanks",115,,medium,fault,['battery'],en,"INVALID: {
+  ""error_code"": ""115"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""in","INVALID: {
+  ""error_code"": ""115"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""in","INVALID: {
+  ""error_code"": ""115"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""in","INVALID: {
+  ""error_code"": ""115"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""in","INVALID: {
+  ""error_code"": ""115"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""in","INVALID: {
+  ""error_code"": ""115"",
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""in"
+t01380,"Channel: email
+Subject: Solar inverter warning message - still working but concerned
+Body: Hi there, I am writing to you because I have been having an issue with my solar system for the past week or so, and honestly I am getting quite frustrated with the lack of response from your team. The thing is, my Huawei inverter keeps showing this DC insulation warning, the error code HUA-501, and while it still seems to be running most of the day, I am not confident that everything is actually working properly. I mean, why would it show a warning if everything was fine? I installed this system back in 2019 and it has been relatively trouble-free until now, but lately I have been monitoring it more closely because I noticed my electricity bills seem higher than expected. The warning appears in the morning, then disappears by midday, and then comes back again in the evening. This is really annoying because I cannot understand what is causing this or if I should be worried about damaging the equipment. I need someone to explain what HUA-501 means and whether I should turn off the system or if it is safe to leave it running. Please respond soon as I am getting quite impatient waiting for help.",HUA-501,Huawei,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": ""HUA-501"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""medium"",","INVALID: {
+  ""error_code"": ""HUA-501"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""medium"",","INVALID: {
+  ""error_code"": ""HUA-501"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""medium"",","INVALID: {
+  ""error_code"": ""HUA-501"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""medium"",","INVALID: {
+  ""error_code"": ""HUA-501"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""medium"",","INVALID: {
+  ""error_code"": ""HUA-501"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""medium"","
+t00103,"Channel: email
+Subject: heating problem
+Body: the heat pump from Vaillant is not working, no heating and no hot water. display show F22 error. what should i do please?",F22,Vaillant,high,fault,"['heatpump', 'refrigerant', 'brazing']",en,F22,Vaillant,high,fault,"['heatpump', 'refrigerant']",de
+t00604,"Channel: phone-transcript
+Subject: Phone call
+Body: hi im calling about my EV wallbox installation and I need the manual or documentation for the system because I want to understand how it works better. um but also ive been having a problem where the car stops charging after like a few minutes and the LED is the wrong color or something, or maybe it's a communication timeout I'm not sure. can you send me the documents and also help me figure out what's going on with the charging?",,,medium,fault,['commissioning'],en,,,low,general,['solar'],en
+t02696,"Channel: phone-transcript
+Subject: 
+Body: Hi yes so um we have a problem with our Goodwe battery storage like it's still running but the performance is not what it should be and um we keep getting this fault that comes and goes you know intermittent and um I checked the display and it's showing error 208 and I'm not sure what that means but like it's frustrating because the battery should be working at full capacity right so um can you please look into this for us thanks",208,Goodwe,medium,fault,['battery'],en,208,Goodwe,medium,fault,"['battery', 'commissioning']",en
+t02271,"Channel: email
+Subject: warranty question
+Body: hi, wie lange is die garantie auf die ganze anlage? thanks",,,low,general,[],en,,,low,billing,[],de
+t03399,"Channel: email
+Subject: inverter down mittags
+Body: Hi, my inverter keeps shutting down komplett every midday and won't restart. Very annoying. Kann das jemand checken? Thx",,,high,fault,['solar'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""intent","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""intent","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""intent","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""intent","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""intent","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""intent"
+t00678,"Channel: email
+Subject: Systemerweiterung - rotes LED Problem
+Body: moin, ich würde gerne mein huawei inverter-system um ne batterie und evt noch mehr solarpanels erweitern. aber momentan hab ich n problem - das rote LED leuchtet seit heut früh und das system produziert nix mehr, netzverbindung ist weg. kann ich trotzdem ausbauen oder muss das erst gelöst werden? danke",,Huawei,high,fault,['solar'],de,,Huawei,high,fault,"['solar', 'hybrid']",de
+t01265,"Channel: email
+Subject: Appointment cancellation and rescheduling
+Body: Hi, I need to cancel my scheduled appointment for next week as something came up. I'd prefer to book a new termin for next month instead if that's möglich. Currently my system is running fine - here's the status from the app: System output today 22.4 kWh, inverter efficiency 97.2%, all modules active. Please let me know available dates. Danke!",,,low,reschedule,[],en,,,low,reschedule,[],de
+t01554,"Channel: phone-transcript
+Subject: Phone call
+Body: Ja also mein Huawei Wechselrichter macht irgendwie Probleme und zwar drosselt der die Leistung immer um die Mittagszeit wenn die Sonne am stärksten ist und das ist natürlich blöd weil da sollte ich ja am meisten Ertrag haben aber stattdessen fällt die Ausgangsleistung einfach ab und bleibt das so für mehrere Stunden lang und dann kommt sie wieder. Die Fehlernummer die angezeigt wird ist 602. Das ist wirklich frustrierend weil die ganze Anlage kostet ja eine Menge Geld und wenn die dann zur besten Zeit nicht richtig läuft dann bringt mir das nichts. Können Sie mir erklären was da los ist und wie das behoben wird?",602,Huawei,medium,fault,['solar'],de,602,Huawei,medium,fault,"['solar', 'optimizer']",de
+t01837,"Channel: phone-transcript
+Subject: Phone call
+Body: Hello um I'm having trouble with my Goodwe battery storage system so um the battery it shows offline like the communication is lost and the solar panels are still working fine but the battery is not charging or discharging anymore and I'm getting an error code 115 on the display um what does that mean and how can I fix this",115,Goodwe,medium,fault,['battery'],en,115,Goodwe,high,fault,"['battery', 'solar', 'commissioning']",en
+t02604,"Channel: email
+Subject: Viessmann Heat Pump Starting Issues
+Body: I'm extremely frustrated with this Viessmann heat pump. It won't start on the first attempt—I have to try multiple times before it finally kicks in. Once it's running it works fine, but this is unacceptable. The error code A9 keeps appearing. Please resolve this immediately.",A9,Viessmann,medium,fault,['heatpump'],en,A9,Viessmann,high,fault,"['heatpump', 'hydronic']",en
+t01652,"Channel: email
+Subject: Anfrage zur Wärmepumpe
+Body: Sehr geehrte Damen und Herren,
+
+Ich möchte Sie gerne kontaktieren bezüglich eines Problems mit meiner Viessmann Wärmepumpe, das mich nun schon seit einigen Wochen beschäftigt. Das Haus wurde übrigens vor etwa fünf Jahren renoviert und damals haben wir auch die neue Heizung eingebaut, was ja insgesamt eine sehr gute Investition war.
+
+Mein Anliegen ist folgendes: An kalten Morgen, insbesondere wenn die Außentemperatur unter fünf Grad liegt, weigert sich die Wärmepumpe einfach anzufahren. Das Haus bleibt dann eisig kalt und es dauert Stunden, bis sich etwas tut. Im Fehlermenü sehe ich regelmäßig den Code A9 auftauchen. Dies ist äußerst unbefriedigend, besonders im Winter, wenn man morgens aufwacht und die Räume sind praktisch nicht beheizt.
+
+Ich wäre sehr dankbar, wenn Sie mir helfen könnten, dieses Problem zu beheben.
+
+Mit freundlichen Grüßen",A9,Viessmann,high,fault,['heatpump'],de,A9,Viessmann,high,fault,"['heatpump', 'hydronic']",de
+t00906,"Channel: email
+Subject: Solar inverter completely not working - error SMA-3601
+Body: Hello,
+
+I am writing to report a serious issue with my solar system. The SMA inverter has stopped working completely and I am getting no power generation at all, which is very frustrating because the weather has been beautiful lately and I should be getting plenty of energy. I noticed this problem about three days ago when I checked my monitoring app to see the daily output.
+
+Here is what the app shows:
+
+Status: Fault
+Error Code: SMA-3601
+Output Power: 0 W
+Daily Yield: 0 kWh
+System Status: Offline
+
+The display on the inverter itself is not showing any information. I have tried switching it off and on again but nothing changed. I really need this sorted as soon as possible because my bills are going to be terrible without solar generation.
+
+Please advise what I should do next.
+
+Thank you",SMA-3601,SMA,high,fault,['solar'],en,SMA-3601,SMA,high,fault,"['solar', 'commissioning']",en
+t02209,"Channel: email
+Subject: Battery offline - not charging or discharging
+Body: Hi,
+
+My Goodwe battery storage system is showing as offline and won't communicate properly. The solar is still generating power fine but the battery isn't charging or discharging at all. When I check the app I see error code 115. It's been like this for 2 days now and I need it working again ASAP. What should I do?
+
+Thanks",115,Goodwe,medium,fault,['battery'],en,115,Goodwe,high,fault,"['battery', 'solar', 'commissioning']",en
+t00334,"Channel: phone-transcript
+Subject: Phone call
+Body: Hallo, ich wollte fragen wie ich die Monitoring App von meiner SMA Anlage richtig lese. Und mein Portal Passwort, ich kann mich da nicht mehr anmelden, können Sie mir helfen das zurückzusetzen? Danke.",,SMA,low,general,[],de,,SMA,low,general,['solar'],de
+t02238,"Channel: phone-transcript
+Subject: Phone call
+Body: Ja, guten Tag, also das Problem ist, dass der Fronius Inverter macht immer wieder restart, ja, so alle paar Stunden, und die Produktion ist wirklich sehr patchy, ne. Der error code 1010 wird angezeigt, und ich check einfach nicht, was da los ist. Die Performance ist echt schlecht in the last weeks. Können Sie mir helfen, das zu fixen?",1010,Fronius,medium,fault,['solar'],de,1010,Fronius,high,fault,"['solar', 'commissioning']",de
+t01225,"Channel: email
+Subject: SMA inverter noise and technician appointment
+Body: Your SMA inverter with error code SMA-410 is making a loud grinding noise from the fan, but it's still producing power. I need to reschedule my technician visit because I cannot be home next Tuesday—please give me another slot.",SMA-410,SMA,medium,fault,['solar'],en,SMA-410,SMA,medium,reschedule,['solar'],en
+t00080,"Channel: email
+Subject: Solaranlage Wechselrichter Problem Stuttgart
+Body: Hallo zusammen,
+
+wir haben seit etwa einer Woche ein massives Problem mit unserem SMA Wechselrichter. Das Ding startet ständig neu, also es geht an, läuft vielleicht 5-10 Minuten und dann schaltet es sich einfach ab und startet wieder von vorne. Das ist extrem nervig, weil wir dann gar keine Energie produzieren können während es das macht. Meine Frau meint, das könnte am Wetter liegen oder so, aber ich glaube eher nicht, wir hatten letzten Monat auch Regen und das ist nicht vorgekommen.
+
+Der Fehlercode, der angezeigt wird, ist SMA-301. Ich habe schon gegoogelt aber nix Vernünftiges gefunden. Kann mir jmd sagen, was ich machen soll? Müssen wir einen Techniker kommen lassen oder ist das was, das man selber fixen kann? Wäre echt dankbar für quick input!
+
+Viele Grüße",SMA-301,SMA,medium,fault,['solar'],de,SMA-301,SMA,high,fault,['solar'],de
+t02145,"Channel: phone-transcript
+Subject: Phone call
+Body: Yeah so um the inverter is like throttling down around noon when the sun is really strong and like the power output just drops for hours you know and I'm getting error code 602 showing up on the display so I'm not sure what's going on there um it happens every day basically around midday when it should be producing the most",602,,medium,fault,['solar'],en,602,Huawei,medium,fault,"['solar', 'optimizer', 'commissioning']",en
+t00744,"Channel: email
+Subject: Battery storage not charging properly
+Body: I am writing to report an issue with my home battery storage system. For the last week, the battery will not charge above approximately 90 percent, regardless of how much solar generation we have. It worked fine before this but now it just stops charging once it hits that level. This is completely unacceptable and I need this resolved as soon as possible. My solar system is generating plenty of power and there is no good reason why the battery should not be charging fully. Please advise what the problem is and when you can send someone to fix it. Hamburg.",,,medium,fault,['battery'],en,,Goodwe,medium,fault,"['battery', 'solar', 'commissioning']",en
+t03094,"Channel: phone-transcript
+Subject: Phone call
+Body: ja also der fronius inverter bei uns das ist wirklich äh ein großes problem mittlerweile ne also der startet sich ständig neu alle paar stunden so ungefähr und dann ist die produktion halt wirklich sehr patchy also wir bekommen vielleicht nur die hälfte von dem was wir normalerweise bekommen würden und äh ja der fehlercode FRO-1010 der erscheint immer wenn das passiert also wenn das ding neustarts und ja ich weiß nicht mehr was ich machen soll können sie mir da helfen",FRO-1010,Fronius,medium,fault,['solar'],de,FRO-1010,Fronius,high,fault,"['solar', 'commissioning']",de
+t00542,"Channel: phone-transcript
+Subject: Phone call
+Body: yeah so um the inverter its just completely down you know like the yellow LED is on since gestern and uh there is no yield at all gar nichts and um it shows the code HUA-501 and its a Huawei system so like what do i do jetzt",HUA-501,Huawei,high,fault,['solar'],en,HUA-501,Huawei,high,fault,['solar'],de
+t00800,"Channel: email
+Subject: Monthly Maintenance Contract Price Increase
+Body: Dear Empire team, I am writing to inquire about the recent increase in my monthly maintenance contract fee. I received a notification that the price has changed without any prior notice or explanation, and I would appreciate clarification on this matter. Additionally, I should mention that my heat pump is currently not providing any heating or hot water, and the display is showing a fault. I would be grateful if you could address both the pricing concern and arrange for a technician to inspect the system at your earliest convenience. Thank you for your prompt attention to this matter. Best regards",,,high,fault,"['heatpump', 'refrigerant', 'brazing']",en,,Vaillant,high,fault,"['heatpump', 'commissioning']",en
+t02723,"Channel: email
+Subject: System expansion inquiry
+Body: Dear Empire team, I would like to inquire about the possibility of expanding my current system with additional battery storage or more solar panels. Could you please provide information on the options available and costs involved? Thank you.",,,low,general,[],en,,,low,reschedule,[],en
+t01393,"Channel: phone-transcript
+Subject: Phone call
+Body: Hi yeah so my Huawei inverter has basically shut down completely, it's not doing anything. The LED light is just blinking yellow and I haven't seen any yield since yesterday morning. The system was working normally, uh, vorgestern, and then this morning nothing. So I checked the display and there's error 501 showing. The inverter is just completely offline or whatever, my solar panels are just sitting there not doing anything. Can someone call me back or let me know what's going on? I'm in Düsseldorf by the way. Danke.",501,Huawei,high,fault,['solar'],en,501,Huawei,high,fault,"['solar', 'commissioning']",en
+t03303,"Channel: phone-transcript
+Subject: Angebot
+Body: ja guten Tag also ich habe eine Frage und zwar überlege ich ob ich mein System noch erweitern kann also meine Huawei Anlage mit zusätzlichen Solarpanelen oder vielleicht auch mit einer Batterie ausstatten kann. wie sieht denn das aus ist das technisch möglich und was würde denn so eine Erweiterung ungefähr kosten? und wie lange würde das dauern so eine Nachinstallation? ich hätte da gerne ein Angebot von euch wenn das passt und ob das wirtschaftlich sinnvoll ist für meine Situation.",,Huawei,low,general,[],de,,Huawei,low,reschedule,['solar'],de
+t02291,"Channel: phone-transcript
+Subject: Phone call
+Body: hi yeah so um i have this issue with my vaillant heat pump and uh the heating is working but it's very schwach you know very weak and it takes like so much longer than it used to take before like maybe double the time or something and um i was wondering if you could maybe um move up my appointment a bit earlier because i have something coming up and the appointment you confirmed with me was for next week but i really need someone to come sooner wenn möglich and um yeah the display shows f.22 as well just thought i should mention that",F.22,Vaillant,medium,fault,"['heatpump', 'refrigerant', 'brazing']",en,f.22,Vaillant,medium,fault,['heatpump'],de
+t02885,"Channel: phone-transcript
+Subject: Phone call
+Body: Hi ja so we have a problem with the Goodwe battery uh the Speicher is showing offline right now and we cannot communicate with it anymore so the solar panels are still working fine and producing power but the battery is not charging and also not discharging at all uh and the system is showing error 115 on the display so we need help with this ähm can you call us back thanks",115,Goodwe,medium,fault,['battery'],en,115,Goodwe,high,fault,['battery'],de
+t00195,"Channel: email
+Subject: Solar inverter issue
+Body: Hello, my SMA inverter has been cycling on and off repeatedly since yesterday morning. It keeps restarting every few minutes and I'm not getting any power generation. I checked the monitoring app and it shows error code 301 appearing constantly. The inverter seems to start up briefly then shuts down again. Can you help me resolve this? Here's what the app displays: Device Status: Error 301 - Inverter Restart Cycle Detected. Output: 0W. Please advise.",301,SMA,medium,fault,['solar'],en,301,SMA,high,fault,"['solar', 'commissioning']",en
+t01757,"Channel: email
+Subject: 
+Body: hallo zusammen,
+
+also ich hab da ein problem mit meinem huawei inverter und ich bin einfach am ende meines lateins. mehrmals am tag verliert das ding die verbindung zum stromnetz, einfach so – und dann nach ner weile kommt es wieder zurück. das ist echt ein zustand.
+
+ich hab mir überlegt, ob das an den wetterbedingungen liegt, weil wir ja neulich diesen merkwürdigen nebel hatten, und ich frag mich ob das eine rolle spielt. aber eigentlich sollte so etwas doch nicht vorkommen bei einem neuen system.
+
+die anzeigen am inverter sehen manchmal komisch aus, aber keine fehlercodes die ich erkennen könnte. das problem tritt auf, ob die sonne scheint oder nicht richtig, es ist halt einfach unzuverlässig.
+
+könnt ihr mir helfen? das kostet mich ja praktisch geld wenn der inverter dauernd die verbindung verliert.
+
+danke",,Huawei,medium,fault,['solar'],de,,Huawei,medium,fault,"['solar', 'commissioning']",de
+t01028,"Channel: email
+Subject: Problem mit Wärmepumpe
+Body: Die Viessmann Wärmepumpe funktioniert gar nicht mehr - Error F4! Ich brauche sofort eine Lösung, das ist inakzeptabel!",F4,Viessmann,high,fault,['heatpump'],de,F4,Viessmann,high,fault,"['heatpump', 'refrigerant']",de
+t02774,"Channel: email
+Subject: 
+Body: hi the battery storage has stopped working completely. getting error code 208 from the goodwe unit. can you help?",208,Goodwe,high,fault,['battery'],en,208,Goodwe,high,fault,"['battery', 'solar']",en
+t01010,"Channel: email
+Subject: Solar inverter performance issue
+Body: Hello, I am writing to you because I am having serious problems with my SMA solar inverter and frankly I am very frustrated with the situation. The device has been installed for about three years now, and it was working perfectly until last month when I went on holiday to Austria for two weeks with my family, which was nice by the way, we visited Salzburg and the lakes were beautiful. But anyway, when I came back I noticed that the inverter is still running, yes it is running, but something is clearly wrong because the performance has dropped significantly compared to what it was before, and I am getting much lower output than I should be getting. The display keeps showing error code 3601 intermittently, sometimes it shows the error and sometimes it disappears and the device seems to work normally for a few hours, then the error comes back again. This is very annoying and I need this sorted out immediately because I am paying good money for this system and it should be working at full capacity. The weather has been sunny so there is no excuse. Please contact me as soon as possible.",3601,SMA,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": ""3601"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""inte","INVALID: {
+  ""error_code"": ""3601"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""inte","INVALID: {
+  ""error_code"": ""3601"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""inte","INVALID: {
+  ""error_code"": ""3601"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""inte","INVALID: {
+  ""error_code"": ""3601"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""inte","INVALID: {
+  ""error_code"": ""3601"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""high"",
+  ""inte"
+t00226,"Channel: email
+Subject: Battery Not Communicating
+Body: Hi, I am writing to you about my home battery storage system which seems to have lost communication with the rest of the setup. The battery shows as offline in the app and I cannot get it to respond. I have attached some information from the monitoring system below:
+
+System Status Report:
+Battery: OFFLINE
+Error Code: 115
+Solar Inverter: ONLINE
+Last Communication: 14 hours ago
+Solar Array Output: 4.2 kW
+Battery Charge Status: 32% (not changing)
+
+So the problem is that even though my solar panels are producing energy and the inverter is working fine, the battery is not charging or discharging at all. It just sits there at 32 percent and wont do anything. My Goodwe system was installed about eight months ago and this has never happened before. I unplugged everything and waited ten minutes and plugged it back in but that didn't help either. Do you have any ideas what could be wrong? The warranty should still be valid so hopefully you can help me get this resolved quickly.",115,Goodwe,medium,fault,['battery'],en,115,Goodwe,medium,fault,"['battery', 'commissioning']",en
+t02585,"Channel: email
+Subject: Burning smell from inverter
+Body: Good morning, I noticed a strong burning plastic smell coming from my inverter in the basement this morning. I'm quite concerned about this as it might be a safety issue. I checked the monitoring app and everything appears to show normal readings:
+
+Status: Online
+Power Output: 4.2 kW
+Temperature: 38°C
+
+But the smell is definitely there and it's quite strong. Could you please send a technician to check this as soon as possible? I'm worried it might be a fire hazard.",,,high,fault,"['solar', 'battery']",en,,Huawei,high,fault,"['solar', 'commissioning']",en
+t01599,"Channel: phone-transcript
+Subject: 
+Body: Yeah so um my inverter is still running but like the performance is um not what it was before and I keep getting these like intermittent faults popping up every few hours um the error code shows 3601 and its a SMA unit and I was wondering if um maybe its a sensor issue or something like that could you um take a look at it",3601,SMA,medium,fault,['solar'],en,3601,SMA,medium,fault,"['solar', 'optimizer']",en
+t02103,"Channel: email
+Subject: Wartungstermin verschieben
+Body: hallo, ich habe einen termin für eine wartung an meiner viessmann wärmepumpe, aber ich kann leider nicht zu hause sein an dem tag. könnte ich einen anderen termin bekommen? das wäre sehr wichtig für mich, ich bin beruflich unterwegs. bitte gebt mir bescheid welche zeiten noch verfügbar sind. danke!",,Viessmann,low,reschedule,[],en,,Viessmann,low,reschedule,[],de
+t02945,"Channel: email
+Subject: Überspannungsschutz nach Gewitter defekt
+Body: Hallo, nach dem starken Gewitter gestern Nacht habe ich bemerkt dass der Überspannungsschutz an unsere Solaranlage nicht mehr funktioniert. Das System läuft noch normal aber der Schutz zeigt an dass er keinen Schutz mehr bietet. Können Sie mir sagen was ich tun muss? Danke",,,medium,fault,['solar'],de,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int"
+t00378,"Channel: phone-transcript
+Subject: 
+Body: um so the heat pump is still running but the heating output is very weak and it's taking much longer to reach the target temperature than it did before and the Vaillant unit is showing an error code F.22 on the display and we're not really sure what that means or if it's a serious issue but we're concerned because the performance has definitely degraded over the last few weeks",F.22,Vaillant,medium,fault,"['heatpump', 'refrigerant', 'brazing']",en,F.22,Vaillant,medium,fault,"['heatpump', 'hydronic']",de
+t01172,"Channel: email
+Subject: Grid connection problem
+Body: I am extremely frustrated with my inverter at the moment. It keeps losing the grid connection multiple times every single day, then reconnects after a few minutes. This has been happening for weeks now and I need this resolved immediately. The error code 001 appears each time it happens. This is completely unacceptable.",001,,medium,fault,['solar'],en,001,SMA,high,fault,"['solar', 'commissioning']",en
+t02859,"Channel: email
+Subject: SMA inverter restarting constantly
+Body: I've been having issues with the SMA inverter for about a week now. It keeps turning itself on and off repeatedly, cycling every few minutes which is really annoying and I'm worried it might damage something. I don't think this is normal behaviour at all. The monitoring app shows it keeps dropping offline and coming back online. Also just to mention we had quite a bit of cloud cover yesterday but that shouldn't cause this kind of cycling should it. Let me know what might be wrong. Recent log: 14:32 RESTART | 14:38 RESTART | 14:44 RESTART | 14:50 RESTART | 14:56 RESTART",,SMA,medium,fault,['solar'],en,,SMA,high,fault,"['solar', 'commissioning']",en
+t03292,"Channel: email
+Subject: Heat pump emergency
+Body: Hello, my Vaillant heat pump is stopped working completely since yesterday morning. The error code F.75 is showing on the display. I am not knowing what to do. Please help me very soon because the house is getting cold.",F.75,Vaillant,high,fault,['heatpump'],en,F.75,Vaillant,high,fault,"['heatpump', 'hydronic']",de
+t00060,"Channel: phone-transcript
+Subject: Telefonanruf
+Body: Guten Tag ja also unser Viessmann Wärmepumpe läuft zwar noch aber irgendwie hat sie nicht mehr die gleiche Leistung wie vorher ja und dann kommt immer wieder so eine Fehlermeldung A4 auf dem Display und dann funktioniert sie kurz nicht richtig also intermittierend würde ich sagen und wir wissen nicht was das sein kann können Sie uns helfen",A4,Viessmann,medium,fault,['heatpump'],de,A4,Viessmann,medium,fault,"['heatpump', 'commissioning']",de
+t00094,"Channel: email
+Subject: DC insulation warning
+Body: Good morning, I wanted to report that a DC insulation warning has appeared on my solar inverter display, though the unit continues to operate for part of the day. Could you please advise on what steps I should take? Thank you.",,,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": ""DC_INSULATION_WARNING"",
+  ""manufacturer"": ""null"",
+  ""severity","INVALID: {
+  ""error_code"": ""DC_INSULATION_WARNING"",
+  ""manufacturer"": ""null"",
+  ""severity","INVALID: {
+  ""error_code"": ""DC_INSULATION_WARNING"",
+  ""manufacturer"": ""null"",
+  ""severity","INVALID: {
+  ""error_code"": ""DC_INSULATION_WARNING"",
+  ""manufacturer"": ""null"",
+  ""severity","INVALID: {
+  ""error_code"": ""DC_INSULATION_WARNING"",
+  ""manufacturer"": ""null"",
+  ""severity","INVALID: {
+  ""error_code"": ""DC_INSULATION_WARNING"",
+  ""manufacturer"": ""null"",
+  ""severity"
+t02668,"Channel: email
+Subject: Inverter schaltet sich ab
+Body: Guten Tag, ich habe ein großes Problem mit meinem Huawei Inverter. Jeden Mittag so um 12 oder 13 Uhr schaltet das Gerät sich komplett ab und bleibt dann aus den ganzen Tag. Ich verstehe nicht warum das passiert, weil das Wetter ist ja gut und die Sonne scheint sehr hell. Meine Frau sagt vielleicht ist es zu heiß aber ich denke das ist nicht normal. Der Fehlercode HUA-602 kommt immer wenn das passiert. Können Sie mir helfen? Ich möchte nicht mehr dieses Problem haben.",HUA-602,Huawei,high,fault,['solar'],de,HUA-602,Huawei,high,fault,"['solar', 'commissioning']",de
+t00203,"Channel: phone-transcript
+Subject: 
+Body: also mein Viessmann Wärmepumpe will morgens überhaupt nicht starten wenn es kalt ist draußen und das Haus wird nicht warm ich weiß nicht warum das passiert aber äh kann ich einen neuen Termin machen weil ich nächste Woche nicht zuhause bin wenn der Techniker kommen soll ich bin dann in Berlin aber vielleicht geht es am übernächsten Wochenende oder so äh ja bitte um einen anderen Termin danke",,Viessmann,high,fault,['heatpump'],de,,Viessmann,medium,reschedule,['heatpump'],de
+t00487,"Channel: email
+Subject: inverter keeps restarting
+Body: hey there,
+
+so been having this really annoying issue w/ my solar inverter and honestly it's driving me crazy. basically what happens is it keeps cycling on and off, like all day long it's just restarting repeatedly and won't stay on for more than a minute or two. it's super frustrating cos i set everything up properly i think, and it was working fine for like 6 months or something. i checked all the wiring and the connections look okay to me but obviously i'm not an expert or anything. tried turning it off and on again (lol) but yeah that didn't help. anyway this has been going on for about a week now and i'm getting a bit worried tbh. also it's been quite warm lately so i don't know if that could be related? not sure what else to tell you guys but would be great if you could help asap.
+
+thanks",,,medium,fault,['solar'],en,,SMA,high,fault,"['solar', 'commissioning']",en
+t01613,"Channel: email
+Subject: Viessmann heat pump not working
+Body: Our Viessmann heat pump has stopped working completely. Error code F4 displayed on unit. Cologne location. Please advise ASAP.",F4,Viessmann,high,fault,['heatpump'],en,F4,Viessmann,high,fault,"['heatpump', 'hydronic']",en
+t03199,"Channel: email
+Subject: Garantie und Fehler
+Body: Hallo, ich bin sehr verärgert und frustriert. Erstens möchte ich wissen, wie lange die Garantie auf mein System läuft. Wie viele Jahre habe ich noch Garantie? Ich brauche diese Information dringend, da ich verschiedene Dinge überprüfen muss. Aber noch wichtiger ist, dass mein Huawei Wechselrichter seit gestern völlig ausgefallen ist. Es zeigt ein gelbes LED-Licht und es gibt überhaupt keinen Ertrag mehr. Der Fehlercode 501 wird angezeigt. Ich kann das nicht akzeptieren, das System soll doch zuverlässig sein. Was ist hier los? Ich brauche sofort eine Lösung, nicht in zwei Wochen. Bitte rufen Sie mich an oder schreiben Sie mir zurück, was zu tun ist.",501,Huawei,high,fault,['solar'],de,501,Huawei,high,fault,"['solar', 'commissioning']",de
+t00559,"Channel: email
+Subject: fronius inverter stopped working
+Body: so the thing is my fronius inverter has completely stopped and the display is just dark no lights nothing and we haven't had any solar production for days now which is really frustrating because the weather has been quite nice actually but anyway the error code showing before it died was fro-1010 and now nothing happens when i press the buttons i've tried turning the main switch off and on again but still nothing so please advise what the issue might be thank you",FRO-1010,Fronius,high,fault,['solar'],en,"INVALID: {
+  ""error_code"": ""fro-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",","INVALID: {
+  ""error_code"": ""fro-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",","INVALID: {
+  ""error_code"": ""fro-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",","INVALID: {
+  ""error_code"": ""fro-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",","INVALID: {
+  ""error_code"": ""fro-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",","INVALID: {
+  ""error_code"": ""fro-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"","
+t01027,"Channel: email
+Subject: Heat pump not working - urgent
+Body: Hi, my Vaillant heat pump has completely stopped working. There's no heating and no hot water at all, which is pretty bad in this weather tbh. The display is showing error code F.22 and I can't figure out what's wrong. Could someone help me ASAP?",F.22,Vaillant,high,fault,"['heatpump', 'refrigerant', 'brazing']",en,F.22,Vaillant,high,fault,"['heatpump', 'hydronic']",en
+t02343,"Channel: phone-transcript
+Subject: Phone call
+Body: Hallo, also meine Viessmann Wärmepumpe hat ein Problem. Das Device läuft zwar noch aber die Performance ist total reduziert, und es tritt immer wieder ein Fehler auf. Die Fehlermeldung F4 kommt ständig. Das ist doch nicht normal, ja? Können Sie mir helfen, was ist das Problem? Das ist ja auch ein Safety-Issue möglicherweise.",F4,Viessmann,medium,fault,['heatpump'],de,F4,Viessmann,high,fault,"['heatpump', 'hydronic']",de
+t03278,"Channel: email
+Subject: Solar Inverter Issue - Error FRO-1010
+Body: Good morning, I am writing to report a recurring issue with my Fronius solar inverter. The unit appears to restart every few hours, and as a result, my solar production has become patchy and unreliable. The error code FRO-1010 has appeared multiple times. Could you please advise on what might be causing this and what steps I should take to resolve it? Thank you.",FRO-1010,Fronius,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": ""FRO-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""medium","INVALID: {
+  ""error_code"": ""FRO-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""medium","INVALID: {
+  ""error_code"": ""FRO-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""medium","INVALID: {
+  ""error_code"": ""FRO-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""medium","INVALID: {
+  ""error_code"": ""FRO-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""medium","INVALID: {
+  ""error_code"": ""FRO-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""medium"
+t00477,"Channel: phone-transcript
+Subject: Telefonat
+Body: Hallo, ich habe ein Problem mit meiner Vaillant Wärmepumpe. Sie läuft zwar, aber die Leistung ist reduziert und es tritt immer wieder ein Fehler auf. Der Fehler-Code ist F28, und das passiert unregelmäßig. Manchmal funktioniert es normal, dann plötzlich wieder nicht richtig. Können Sie mir helfen, das zu beheben? Das ist wirklich frustrierend.",F28,Vaillant,medium,fault,['heatpump'],de,F28,Vaillant,medium,fault,"['heatpump', 'hydronic']",de
+t02897,"Channel: email
+Subject: Solar Inverter Performance
+Body: Dear Team,
+
+I hope this message finds you well. Our Huawei solar inverter is currently running but with noticeably reduced performance. Additionally, we are experiencing intermittent faults, and the error code HUA-2064 appears periodically on the display. Could you please advise on what might be causing this issue?
+
+Thank you for your assistance.",HUA-2064,Huawei,medium,fault,['solar'],en,HUA-2064,Huawei,medium,fault,"['solar', 'optimizer']",en
+t02237,"Channel: email
+Subject: Inverter Not Working - Red LED Error
+Body: Hi, my solar inverter's gone down completely. There's a red LED showing on the front and zero power output at all right now. The grid connection is totally lost and the Huawei system isn't talking to anything. Error code 001 is displayed. System's been down since yesterday morning and I've got no production whatsoever. This needs sorting ASAP pls. Thx",001,Huawei,high,fault,['solar'],en,001,Huawei,high,fault,"['solar', 'commissioning']",en
+t01095,"Channel: email
+Subject: Fronius Inverter Problem
+Body: Hallo, unser Fronius läuft aber mit reduzierter Leistung. State 306 error kommt immer wieder. Was ist los?",State 306,Fronius,medium,fault,['solar'],de,306,Fronius,medium,fault,"['solar', 'optimizer']",de
+t03198,"Channel: phone-transcript
+Subject: Anruf
+Body: Guten Tag, ich habe ein großes Problem mit meiner Wärmepumpe von Vaillant. Sie heizt nicht mehr, also gar nichts, und ich habe auch kein warmes Wasser. Das Display zeigt einen Fehler an. Ich bin mir nicht ganz sicher, aber ich glaube der Fehlercode ist F22 oder so ähnlich. Das ist ja nicht normal, die Heizung war doch gerade noch in Ordnung letzte Woche. Können Sie mir sagen, was ich machen soll? Es ist relativ kalt hier und meine Familie ist nicht sehr glücklich.",F22,Vaillant,high,fault,"['heatpump', 'refrigerant', 'brazing']",de,F22,Vaillant,high,fault,"['heatpump', 'hydronic']",de
+t01438,"Channel: phone-transcript
+Subject: Phone call
+Body: so um yeah I am hearing this like really loud grinding noise coming from the SMA inverter um and I am not sure what is going on like the thing is still producing power which is good but the noise is like uh pretty loud especially like in the morning when everything is quiet and um I checked the monitoring thing and it is showing error code 410 um should I be worried about this like is this something that needs fixing right away or like can I just let it go for a bit um the system seems to be working okay otherwise but yeah that grinding noise is bothering me quite a bit and I wanted to call and ask about it",410,SMA,medium,fault,['solar'],en,410,SMA,high,fault,"['solar', 'commissioning']",en
+t03256,"Channel: phone-transcript
+Subject: Phone call
+Body: Yeah so um I was thinking about maybe expanding our system you know like we're pretty happy with what we have but uh could we add more panels on the roof or maybe get a battery installed as well like what would that cost and how long would it take to set that up so um yeah that's my main question about expanding things",,,low,general,[],en,,,low,reschedule,['solar'],en
+t03327,"Channel: email
+Subject: Warranty inquiry
+Body: Dear Empire team, I hope this message finds you well. I am writing to you from Cologne regarding an administrative matter concerning my current solar installation. I would very much like to know more details about the warranty coverage for my system. Specifically, I am interested in understanding how long the warranty period lasts and what exactly is covered under this warranty. Additionally, I would appreciate it if you could provide information about whether there are any optional extended warranty packages available. I recall receiving some documentation when the system was installed about a year ago, but I cannot seem to locate those papers at the moment. It would be most helpful if you could send me the relevant warranty information directly via email so that I have everything clearly documented for my records. Thank you very much for your assistance with this matter, and I look forward to hearing from you soon.",,,low,general,[],en,,,low,billing,[],en
+t03375,"Channel: email
+Subject: System expansion inquiry
+Body: Hi, we are interested in adding a battery storage system to our current setup. We also want to know if we can add more panels later. Current production: 8.2 kWh today, total since installation: 12,450 kWh. Can you send us information about battery options and costs? Thanks",,,low,general,[],en,,,low,reschedule,['solar'],en
+t00519,"Channel: email
+Subject: battery expansion and inverter issue
+Body: hello, i am interested to expand my solar system with a battery and maybe some more panels in the future, it would be nice ja? but first i have a problem with my inverter, it is not starting at all and the display is showing a fault error code 301. also there is no power from the solar panels now. i need help with this but also want to know about the battery expansion options and the costs. can you help me? danke",301,,high,fault,['solar'],en,"INVALID: {
+  ""error_code"": ""301"",
+  ""manufacturer"": null,
+  ""severity"": ""high"",
+  ""intent","INVALID: {
+  ""error_code"": ""301"",
+  ""manufacturer"": null,
+  ""severity"": ""high"",
+  ""intent","INVALID: {
+  ""error_code"": ""301"",
+  ""manufacturer"": null,
+  ""severity"": ""high"",
+  ""intent","INVALID: {
+  ""error_code"": ""301"",
+  ""manufacturer"": null,
+  ""severity"": ""high"",
+  ""intent","INVALID: {
+  ""error_code"": ""301"",
+  ""manufacturer"": null,
+  ""severity"": ""high"",
+  ""intent","INVALID: {
+  ""error_code"": ""301"",
+  ""manufacturer"": null,
+  ""severity"": ""high"",
+  ""intent"
+t02572,"Channel: email
+Subject: Warranty Information Request
+Body: Dear Empire,
+
+I am writing to you because I need to know something about my system and frankly I have been trying to find this information online for weeks now with no luck whatsoever. I installed a Vaillant heat pump about a year ago and it has been working fine so far, no issues at all, but I want to understand what my warranty covers and how long it actually lasts. I have been having conversations with neighbors about their systems and they all seem to have different warranty periods which is confusing to me. One of them mentioned something about extended warranties but I don't even know where to start with that.
+
+I need a clear answer about how many years the warranty is valid for and what exactly is covered under it. I would appreciate if you could send me the details in writing so I have it on record. This is quite important to me and I would like this sorted out before anything goes wrong.
+
+Thank you for your time and I look forward to your response soon.
+
+Best regards",,Vaillant,low,general,[],en,,Vaillant,low,billing,[],en
+t02278,"Channel: email
+Subject: 
+Body: hallo die vaillant wärmepumpe heizt jetzt sehr schwach und dauert viel länger als vorher. was kann ich machen?",,Vaillant,medium,fault,"['heatpump', 'refrigerant', 'brazing']",de,,Vaillant,medium,fault,['heatpump'],de
+t02763,"Channel: email
+Subject: Appointment Rescheduling Request
+Body: Hello, I need to reschedule my technician visit for my Goodwe home battery storage as I will not be home on the scheduled date. Could you please provide alternative appointment slots?",,Goodwe,low,reschedule,[],en,,Goodwe,low,reschedule,['battery'],en
+t01570,"Channel: email
+Subject: Heat pump not starting in the morning
+Body: Hi there, so I've got this Viessmann heat pump installed like maybe 18 months ago and lately when it gets really cold at night, which has been happening a lot recently with the weather and all, the thing just won't start up in the morning. Like literally nothing happens when I turn it on. My house gets freezing cold which is obviously not great especially when you've got kids running around and you're trying to keep things comfortable. I've checked all the obvious stuff like the thermostat settings and everything seems fine there but the unit itself just refuses to fire up until like mid-morning when it gets a bit warmer outside. Then suddenly it kicks in and works fine for the rest of the day which is weird to me. Is this a known issue with these units or am I doing something wrong with the installation or settings?",,Viessmann,high,fault,['heatpump'],en,,Viessmann,medium,fault,"['heatpump', 'hydronic']",en
+t01614,"Channel: email
+Subject: Heat pump failure - no heating or hot water
+Body: We've got a major problem with our Vaillant heat pump in Munich - there's zero heating and zero hot water atm, which is obv not ideal. The display is showing a fault code F.22 so something's def gone wrong. We need this sorted ASAP cuz we're freezing and can't shower properly. What's the quickest way to get this resolved? Do we need a technician out here right away?",F.22,Vaillant,high,fault,"['heatpump', 'refrigerant', 'brazing']",en,F.22,Vaillant,high,fault,"['heatpump', 'hydronic']",en
+t02152,"Channel: phone-transcript
+Subject: Phone call
+Body: Yes hello, so we've got a red LED showing on the Huawei inverter and there's no power coming out at all. The grid connection has been lost. I'm getting the error HUA-001. What do I need to do here?",HUA-001,Huawei,high,fault,['solar'],en,HUA-001,Huawei,high,fault,"['solar', 'commissioning']",en
+t00219,"Channel: email
+Subject: Inverter-Fehler dauerhaft
+Body: Mein Huawei-Wechselrichter verliert mehrmals täglich die Netzverbindung! Es ist absolut inakzeptabel, dass das nicht gelöst wurde. Der Fehlercode 001 taucht ständig auf und das System springt immer wieder ab und verbindet sich dann wieder. Ich bin mit dieser Situation am Ende meiner Geduld und erwarte sofortige Abhilfe!",001,Huawei,medium,fault,['solar'],de,001,Huawei,high,fault,['solar'],de
+t02537,"Channel: email
+Subject: Solar inverter noise
+Body: Inverter making loud grinding noise from fan. Still producing power. Error 410 in monitoring app:
+2024-01-15 06:42:15 | SMA inverter | State: Active | Output: 4.2kW | Error 410 | Fan speed: high
+What is wrong?",410,SMA,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": ""410"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": ""410"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": ""410"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": ""410"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": ""410"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": ""410"",
+  ""manufacturer"": ""SMA"",
+  ""severity"": ""medium"",
+  ""int"
+t02104,"Channel: email
+Subject: Battery Offline Problem
+Body: hi zusammen, ich hab ein problem mit meinem goodwe battery storage system und zwar ist die batterie offline gegangen oder so kommunikation ist weg irgendwie und die battery lädt und entlädt nicht mehr obwohl die solaranlage noch normal läuft und strom produziert. auf dem app vom system steht error code GOO-115 und das is echt nicht cool weil ich kein backup energy hab momentan. könnt ihr schnell helfen und mir sagen was ich machen kann?",GOO-115,Goodwe,medium,fault,['battery'],de,GOO-115,Goodwe,high,fault,"['battery', 'solar']",de
+t00122,"Channel: phone-transcript
+Subject: Phone call
+Body: Yeah so um the inverter is making this really loud grinding noise like a rattling sound from the fan area and um it's still producing power okay so like the panels are working but this noise is um pretty concerning and I've got the SMA equipment and um the error code showing is 410 so can someone call me back about this",410,SMA,medium,fault,['solar'],en,410,SMA,high,fault,"['solar', 'commissioning']",en
+t02773,"Channel: email
+Subject: 
+Body: Good morning, I am writing to report that my home battery storage has gone offline and is no longer communicating with the system. The solar panels continue to operate normally, but the battery is not charging or discharging. Could you please advise on the next steps? Thank you.",,,medium,fault,['battery'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int"
+t02455,"Channel: email
+Subject: Solar Inverter Not Working
+Body: Good morning,
+
+I hope this message finds you well. I am writing to you regarding a concerning issue with my solar installation that has developed over the past day or so. Yesterday afternoon, I noticed that my Huawei inverter, which has been functioning quite reliably since its installation about two years ago, has completely shut down. I was actually in the middle of reviewing my energy production data on my phone, which is something I do quite regularly on Sundays, when I noticed the display had gone dark.
+
+Upon inspection of the physical unit mounted on the wall of my garage, I observed that the LED indicator light is now displaying a yellow colour, which I believe is not a normal operating state. The inverter is completely unresponsive, and most importantly, my solar panels are producing absolutely no yield whatsoever since yesterday afternoon. I have not made any changes to the system configuration, and the weather has been fairly clear, so I would expect normal production levels.
+
+The error code that is being displayed is HUA-501. I am somewhat concerned about this situation and would greatly appreciate your prompt assistance in diagnosing and resolving this matter.
+
+Thank you for your attention to this matter.
+
+Best regards",HUA-501,Huawei,high,fault,['solar'],en,"INVALID: {
+  ""error_code"": ""HUA-501"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+ ","INVALID: {
+  ""error_code"": ""HUA-501"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+ ","INVALID: {
+  ""error_code"": ""HUA-501"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+ ","INVALID: {
+  ""error_code"": ""HUA-501"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+ ","INVALID: {
+  ""error_code"": ""HUA-501"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+ ","INVALID: {
+  ""error_code"": ""HUA-501"",
+  ""manufacturer"": ""Huawei"",
+  ""severity"": ""high"",
+ "
+t02842,"Channel: email
+Subject: Inverter shutdown - yellow LED
+Body: I need assistance with my inverter. It has shut down completely and there is a yellow LED indicator showing. I have not received any yield since yesterday morning. When I checked the monitoring app, it shows the following error: 501. Can someone please contact me to resolve this? The system is completely offline.",501,,high,fault,['solar'],en,501,Huawei,high,fault,"['solar', 'commissioning']",en
+t00546,"Channel: phone-transcript
+Subject: Phone call
+Body: Yeah so my Fronius inverter is running but something is not quite right. The performance is reduced, Ich glaube there's an intermittent fault happening. I'm seeing error code 306 appearing and then disappearing. It's like the device keeps switching between normal and fault mode. Can someone look at this?",306,Fronius,medium,fault,['solar'],en,306,Fronius,medium,fault,"['solar', 'optimizer', 'commissioning']",de
+t00134,"Channel: email
+Subject: Solar inverter reducing power output
+Body: Hello, I am contacting you because I have issue with my SMA solar inverter. The device is running but the performance is not so good like it was before. It is producing with reduced power and I am seeing sometimes fault messages that come and go. The error code SMA-3601 appear on the display intermittently. I checked the system many times and it looks like normal from outside but something is clearly not right inside. The installation was done two years ago and everything was working perfect until maybe three weeks ago when this problem started. I am wondering if this is covered under warranty or if I need to pay for repair. Please advise me what I should doing next. Thank you for your assistance.",SMA-3601,SMA,medium,fault,['solar'],en,SMA-3601,SMA,medium,fault,"['solar', 'commissioning']",en
+t00670,"Channel: phone-transcript
+Subject: Anruf
+Body: ja hallo also äh das Problem ist dass die Batterie jetzt schon eine Woche lang nicht über 90 Prozent lädt also äh das ist komisch weil vorher hat das immer funktioniert und jetzt bleibt sie einfach bei 90 Prozent stehen und lädt nicht weiter äh ja und ich weiß nicht warum das ist und äh ob das normal ist oder ob da was kaputt ist",,,medium,fault,['battery'],de,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": ""null"",
+  ""severity"": ""medium"",
+  ""int"
+t02658,"Channel: phone-transcript
+Subject: Phone call
+Body: yeah hello um so I'm calling because my solar inverter it's not turning on at all anymore like nothing is happening and the display on the front it's showing some kind of fault message and I'm not getting any power from the panels at all so obviously something is broken and uh it's an SMA inverter and the error code that's showing is 301 so um can you help me out here because I need this working as soon as possible thanks",301,SMA,high,fault,['solar'],en,301,SMA,high,fault,"['solar', 'commissioning']",en
+t00021,"Channel: email
+Subject: Inverter keeps restarting - help needed
+Body: Hi there, so basically I've been having massive Probleme with my Fronius inverter lately and it's driving me nuts honestly. Like every few hours the thing just restarts itself out of nowhere, which means my solar production is all over the place and super inconsistent. One minute it's generating power and the next minute everything stops and it reboots again. The error code FRO-1010 keeps popping up but I have no idea what that means. This has been going on for like 2 weeks now and it's really frustrating because I'm supposed to be generating Strom but instead I'm getting nothing. Also I noticed the display looks a bit dim but idk if that's relevant. Würde sehr dankbar sein if u could help me sort this out asap. Thx",FRO-1010,Fronius,medium,fault,['solar'],en,"INVALID: {
+  ""error_code"": ""FRO-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",","INVALID: {
+  ""error_code"": ""FRO-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",","INVALID: {
+  ""error_code"": ""FRO-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",","INVALID: {
+  ""error_code"": ""FRO-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",","INVALID: {
+  ""error_code"": ""FRO-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"",","INVALID: {
+  ""error_code"": ""FRO-1010"",
+  ""manufacturer"": ""Fronius"",
+  ""severity"": ""high"","
+t03166,"Channel: email
+Subject: Huawei inverter shutting down at noon daily
+Body: Hello, I am writing because my solar inverter is having a serious issue. Every day around midday the Huawei inverter switches off completely and stays off for hours. The monitoring app shows:
+
+Inverter Status: Offline
+Output Power: 0W
+Grid Connected: No
+
+This happens consistently. The system worked fine before. What could be causing this?",,Huawei,high,fault,['solar'],en,,Huawei,high,fault,"['solar', 'commissioning']",en
+t00911,"Channel: phone-transcript
+Subject: 
+Body: Yeah so uh hello I wanted to call about the charging situation with my wallbox um it keeps stopping after like a few minutes you know the car just stops charging and then the LED color changes or something and it's like not communicating properly anymore I think but anyway uh the main reason I'm calling today is actually about the feed-in payment from last quarter which I still haven't received yet it should have arrived like three weeks ago and I checked my bank account multiple times and nothing came through so can you please look into that for me because I need that money but yeah also if you could just check on the wallbox thing too because it's becoming pretty annoying wenn I need to charge the car",,,medium,fault,['commissioning'],en,"INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":","INVALID: {
+  ""error_code"": null,
+  ""manufacturer"": null,
+  ""severity"": ""low"",
+  ""intent"":"

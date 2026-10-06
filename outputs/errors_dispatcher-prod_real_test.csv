@@ -1,0 +1,40 @@
+﻿id,ticket,gold_error_code,gold_manufacturer,gold_severity,gold_intent,gold_required_skills,gold_detected_language,pred_error_code,pred_manufacturer,pred_severity,pred_intent,pred_required_skills,pred_detected_language
+T-10001,"Channel: email
+Subject: rote LED am Wechselrichter!!!
+Body: Hallo Empire, mein Wechselrichter (Huawei) blinkt rot und in der App steht Fehler 0x0001. Wir haben heute Morgen kurz keinen Strom gehabt im ganzen Haus. Was sollen wir tun? Liebe Grüße",0x0001,Huawei,high,fault,['solar'],de,0x0001,Huawei,high,fault,"['solar', 'battery']",de
+T-10005,"Channel: email
+Subject: no hot water or heating — urgent!!
+Body: Please help — the heat pump stopped working this morning. No hot water and the heating is completely cold. The display is showing F.22. We have two young children at home. Is there any way someone can come out today? This is really urgent for us.",F.22,,high,fault,"['heatpump', 'refrigerant', 'brazing']",en,F.22,Vaillant,high,fault,['heatpump'],en
+T-10006,"Channel: email
+Subject: battery showing offline in app
+Body: Hello, my hybrid solar system seems to be working fine for generation but the Goodwe app shows the battery as offline. It says Error 115. Solar is still feeding the grid normally. Not an emergency but I'd like to get it sorted — the whole point of the battery is to use overnight and right now I can't.",115,Goodwe,medium,fault,['battery'],en,115,Goodwe,medium,fault,"['solar', 'battery']",en
+T-10009,"Channel: email
+Subject: battery won't charge past 90
+Body: My LFP battery won't charge above 90 percent for the last week. No specific error in the app, just stops there. System is from 2023.",,,medium,fault,['battery'],en,,,medium,fault,"['solar', 'battery']",en
+T-10010,"Channel: email
+Subject: Wallbox lädt nicht mehr
+Body: Unsere Empire Wallbox lädt das Auto nicht mehr seit gestern Nacht. LED leuchtet aber blau (sollte grün sein). Auto ist ein VW ID.4.",,,medium,fault,['commissioning'],de,"INVALID: {""error_code"": null, ""manufacturer"": null, ""severity"": ""medium"", ""intent"": ""faul","INVALID: {""error_code"": null, ""manufacturer"": null, ""severity"": ""medium"", ""intent"": ""faul","INVALID: {""error_code"": null, ""manufacturer"": null, ""severity"": ""medium"", ""intent"": ""faul","INVALID: {""error_code"": null, ""manufacturer"": null, ""severity"": ""medium"", ""intent"": ""faul","INVALID: {""error_code"": null, ""manufacturer"": null, ""severity"": ""medium"", ""intent"": ""faul","INVALID: {""error_code"": null, ""manufacturer"": null, ""severity"": ""medium"", ""intent"": ""faul"
+T-10011,"Channel: email
+Subject: App keeps disconnecting
+Body: The FusionSolar app keeps showing 'inverter offline' but the inverter itself is running. Maybe a wifi issue? Not really an emergency.",,Huawei,low,fault,['solar'],en,,Huawei,medium,fault,['solar'],en
+T-10012,"Channel: email
+Subject: Anlage produziert weniger als letztes Jahr
+Body: Hallo, wir bekommen weniger Ertrag als letztes Jahr im April. Liegt es an Verschmutzung? Können sie einen Termin für Reinigung machen?",,,low,general,[],de,,,medium,fault,['solar'],de
+T-10017,"Channel: email
+Subject: Frage zur Einspeisevergütung
+Body: Hallo, wie lange dauert es bis die EEG-Anmeldung bestätigt ist? Habe vor 6 Wochen die Unterlagen geschickt aber noch nichts gehört.",,,low,general,[],de,,,low,billing,['solar'],de
+T-10018,"Channel: email
+Subject: F.22 wieder
+Body: Wärmepumpe Vaillant aroTHERM zeigt schon wieder F.22, gleiches Problem wie im Januar. Es war damals ein Leck, vielleicht ist es wieder so?",F.22,Vaillant,medium,fault,"['heatpump', 'refrigerant', 'brazing']",de,F.22,Vaillant,medium,fault,"['heatpump', 'refrigerant']",de
+T-10019,"Channel: email
+Subject: Goodwe app login funktioniert nicht
+Body: Komme nicht mehr in die Goodwe app rein, Passwort wurde abgelehnt. Wer kann das zurücksetzen?",,Goodwe,low,general,[],de,,Goodwe,low,general,['solar'],de
+T-10020,"Channel: email
+Subject: Optimizer-Fehler einzelnes Modul
+Body: FusionSolar zeigt einen einzelnen Optimizer auf dem Dach als 'kommunikationslos'. Anlage läuft sonst normal. Optimizer ist auf Modul 14 von 20.",,Huawei,medium,fault,"['solar', 'optimizer']",de,,Huawei,medium,fault,['solar'],de
+T-10023,"Channel: email
+Subject: App zeigt 0 Watt obwohl Sonne
+Body: App zeigt 0 Watt Erzeugung obwohl heute schöner sonniger Tag. Wechselrichter Display zeigt aber 3.2 kW. Welche Daten stimmen?",,,low,general,[],de,,,medium,fault,['solar'],de
+T-10024,"Channel: email
+Subject: battery wrong reading
+Body: The Goodwe app says battery is at 100% all the time, even at night. Pretty sure that's wrong since solar is the only source.",,Goodwe,low,fault,['battery'],en,,Goodwe,medium,fault,"['solar', 'battery']",en

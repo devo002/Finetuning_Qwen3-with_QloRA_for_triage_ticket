@@ -1,0 +1,42 @@
+# --- secrets ---
+.env
+.env.*
+!.env.example
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# --- the cloned Smart Dispatcher repo (separate project, has its own .env and data) ---
+Mcp/
+
+# --- archives and downloads ---
+*.zip
+*.tar
+*.tar.gz
+
+# --- model weights and training artefacts (large; keep on Drive / Hugging Face) ---
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+outputs/qwen3-4b-triage-lora/
+outputs/qwen3-4b-triage-merged/
+outputs/**/checkpoints/
+wandb/
+
+# --- raw generation intermediates and manual review sheets ---
+data/generated/
+data/review/
+
+# --- editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

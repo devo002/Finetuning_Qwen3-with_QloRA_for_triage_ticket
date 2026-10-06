@@ -1,0 +1,29 @@
+﻿id,ticket,gold_error_code,gold_manufacturer,gold_severity,gold_intent,gold_required_skills,gold_detected_language,pred_error_code,pred_manufacturer,pred_severity,pred_intent,pred_required_skills,pred_detected_language
+t02717,"Channel: phone-transcript
+Subject: Phone call
+Body: ja also ähm der Fronius Wechselrichter der geht gar nicht mehr also der ist einfach komplett down und zeigt mir diese error code 306 an und ähm ich verstehe nicht was ist los ist das schlecht und wie lange dauert bis ihr kommt also das ist problematisch weil ich wirklich auf den Strom angewiesen bin",306,Fronius,high,fault,['solar'],en,306,Fronius,high,fault,['solar'],de
+t02985,"Channel: phone-transcript
+Subject: Anruf
+Body: Guten Tag, ich rufe an wegen meiner Vaillant Wärmepumpe. Das Gerät läuft zwar noch, aber die Leistung ist deutlich reduziert. Ich habe auch immer wieder Fehlermeldungen, speziell den Code F28 der kommt immer wieder. Das ist jetzt schon seit ungefähr einer Woche so. Die Heizung funktioniert nicht richtig, das Wasser wird nicht warm genug. Können Sie mir sagen, was da los ist? Ich bin hier in Köln, falls das wichtig ist.",F28,Vaillant,medium,fault,['heatpump'],de,F28,Vaillant,medium,fault,"['heatpump', 'refrigerant', 'brazing']",de
+t00096,"Channel: email
+Subject: Inverter Problem
+Body: Guten Tag, mein Huawei Inverter hat seit gestern komplett Stillstand. Gelbe LED, kein Ertrag. Status aus App: Device Status: Fault, Power Output: 0 W, Fault Code: Equipment Failure. Was ist los? Danke",,Huawei,high,fault,['solar'],en,,Huawei,high,fault,['solar'],de
+t03053,"Channel: email
+Subject: Inverter Problem
+Body: Hey, der Huawei Inverter schaltet sich mittags einfach komplett ab und bleibt dann aus, HUA-602 Fehler. Ist das normal oder was kann ich machen?",HUA-602,Huawei,high,fault,['solar'],de,HUA-602,Huawei,high,fault,['solar'],en
+t00552,"Channel: phone-transcript
+Subject: Phone call
+Body: So ja I'm calling because I want to discuss the possibility of maybe expanding our system in the future. We have the current setup with the solar panels and everything and it's working quite well so far, but I was wondering if it would be possible to add a battery to store more energy you know for the evening times when we use more power. Also I'm thinking maybe we could add more panels on the other side of the roof because we get sun there too. So can you tell me what options we have? Ah and how much would something like that cost approximately? My neighbor has a very large system with uh multiple batteries and I'm wondering if that's something we could do as well. What's your Ergebnis on this?",,,low,general,[],de,,,low,general,[],en
+t00486,"Channel: email
+Subject: Doppelte Abbuchung und Ladesäule Problem
+Body: Sehr geehrte Damen und Herren,
+
+die Lastschrift wurde diesen Monat zweimal von meinem Konto eingezogen. Bitte korrigieren Sie dies. Zusätzlich möchte ich erwähnen, dass meine Ladesäule nach wenigen Minuten nicht mehr lädt und die LED-Farbe falsch angezeigt wird.
+
+Mit freundlichen Grüßen",,,medium,fault,['commissioning'],de,,,low,billing,[],de
+t00972,"Channel: email
+Subject: Battery issue
+Body: Hallo, die Goodwe Batterie läuft aber mit reduced performance und intermittent fault. Fehlercode 208. Was ist los?",208,Goodwe,medium,fault,['battery'],de,208,Goodwe,medium,fault,['battery'],en
+t02103,"Channel: email
+Subject: Wartungstermin verschieben
+Body: hallo, ich habe einen termin für eine wartung an meiner viessmann wärmepumpe, aber ich kann leider nicht zu hause sein an dem tag. könnte ich einen anderen termin bekommen? das wäre sehr wichtig für mich, ich bin beruflich unterwegs. bitte gebt mir bescheid welche zeiten noch verfügbar sind. danke!",,Viessmann,low,reschedule,[],en,,Viessmann,low,reschedule,[],de
